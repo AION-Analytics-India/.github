@@ -9,7 +9,7 @@ AION Analytics (India) is a deep-tech research company building probabilistic mo
 | Project | What it does | |
 |---|---|---|
 | **[aion-indian-market-intelligence](https://github.com/AION-Analytics-India/aion-indian-market-intelligence)** | Turns one macro or policy event into structured sector impact, with confidence and evidence attached | [![PyPI](https://img.shields.io/pypi/v/aion-indian-market-intelligence)](https://pypi.org/project/aion-indian-market-intelligence/) |
-| **[aion-india-market-calendar](https://github.com/AION-Analytics-India/aion-india-market-calendar)** | Is this Indian market open right now? NSE, BSE, MCX, CDS and Muhurat, offline and without an API key | [![Downloads](https://img.shields.io/pypi/dm/aion-indian-market-calendar)](https://pypi.org/project/aion-indian-market-calendar/) |
+| **[aion-indian-market-calendar](https://github.com/AION-Analytics-India/aion-indian-market-calendar)** | Is this Indian market open right now? NSE, BSE, MCX, CDS and Muhurat, offline and without an API key | [![Downloads](https://img.shields.io/pypi/dm/aion-indian-market-calendar)](https://pypi.org/project/aion-indian-market-calendar/) |
 | **[aion-lithuanian-market-calendar](https://github.com/AION-Analytics-India/aion-lithuanian-market-calendar)** | Lithuanian public holidays, computed rather than tabulated, so it never needs updating | [![PyPI](https://img.shields.io/pypi/v/aion-lithuanian-market-calendar)](https://pypi.org/project/aion-lithuanian-market-calendar/) |
 
 ## What we build
@@ -25,7 +25,7 @@ AION Analytics (India) is a deep-tech research company building probabilistic mo
   [Hugging Face](https://huggingface.co/AION-Analytics/aion-indian-market-intelligence)
 - **Indian Market Calendar** — open-source (MIT) session and holiday validation across
   NSE, BSE, MCX, and NSE Currency Derivatives.
-  → [GitHub](https://github.com/AION-Analytics-India/aion-india-market-calendar) ·
+  → [GitHub](https://github.com/AION-Analytics-India/aion-indian-market-calendar) ·
   [PyPI](https://pypi.org/project/aion-indian-market-calendar/)
 - **Lithuanian Market Calendar** — the same idea in a second jurisdiction. Sixteen
   statutory holidays derived from first principles, so the package stays correct for
