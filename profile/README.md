@@ -17,6 +17,9 @@ That is an engineering position, not a finance one, and it is the through-line i
 We apply it first to Indian financial markets — NSE, BSE and MCX — because that is where being
 quietly wrong costs real money, and where a claim nobody can audit is worth nothing.
 
+> **We're hiring a communication architect.** No CVs — [the challenge is the
+> application](https://dashboard.aiondashboard.site/careers).
+
 ---
 
 ## Start here
@@ -65,6 +68,38 @@ built.
 | **[Edge Engine](https://dashboard.aiondashboard.site/models/edge-engine)** | A pattern fired — but is there an edge, and does it survive costs? Two different questions, answered separately. | |
 | **[Edge Audit Reports](https://dashboard.aiondashboard.site/models/signal-audit-reports)** | Anyone can claim a track record. The published archive of signals and their outcomes, failures included. | |
 | **[Know Your Rights](https://dashboard.aiondashboard.site/models/know-your-rights)** | Legal entitlements in India, in plain language, with the provision cited. Built to refuse when a question needs a lawyer. *Pilot.* | |
+
+---
+
+## We're hiring — Communication Architect
+
+**We don't read CVs. We read code.**
+
+The technical work here is solid. The gap is communication: very few people outside the field know
+this work exists, and even fewer can explain it clearly. We need someone who can sit with the actual
+code and models, understand what they do and why they matter, and then produce content that makes a
+developer, a trader, or a curious founder say: *"I didn't know this was possible."*
+
+This is not a social media management role. It is a thinking role that sometimes outputs social media.
+
+**There is no form to fill before you do the work. The challenge *is* the application.** Read the
+repositories on this page — the model card, the package README, what the code actually does — then
+write one piece that explains a single AION product to someone who has never heard of us. Under
+~500 words, in whatever format you choose. That is the only CV we read.
+
+We publish exactly what we weight, because transparency about evaluation criteria is part of how
+AION works: **technical understanding** highest, then **strategic thinking**, then **communication
+clarity**. Showing how you would automate your own work is a bonus signal, not a requirement.
+
+A generic cover letter is an instant pass. A thoughtful piece of work is an invitation to a
+conversation.
+
+Remote. Output-based. The first engagement is a **paid trial** based on the challenge submission —
+if the work is strong, the conversation continues from there. We especially welcome applicants from
+underrepresented backgrounds; the challenge is the same for everyone, and the only thing we evaluate
+is the work.
+
+**→ [Read the full challenge and submit](https://dashboard.aiondashboard.site/careers)**
 
 ---
 
