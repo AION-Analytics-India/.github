@@ -39,6 +39,8 @@ is_open("NSE")          # -> True / False, offline, no API key, no network call
 
 **[Try the live demo](https://dashboard.aiondashboard.site/demo)** — no signup, no card, no cookies.
 
+Not a trader? **[Know Your Rights](https://dashboard.aiondashboard.site/models/know-your-rights/demo)** answers questions about Indian law in English, Hindi or Gujarati, and cites the section it came from. It is in pilot, and a rating on a *wrong* answer helps us more than a rating on a right one.
+
 ---
 
 ## Open source
@@ -67,7 +69,7 @@ built.
 | **[Order Execution Agent](https://dashboard.aiondashboard.site/models/order-execution-agent)** | When an automated trade is disputed, no independent record exists of what the system actually did. Device-resident chain of custody from signal to executed order. *Patent application filed.* | |
 | **[Edge Engine](https://dashboard.aiondashboard.site/models/edge-engine)** | A pattern fired — but is there an edge, and does it survive costs? Two different questions, answered separately. | |
 | **[Edge Audit Reports](https://dashboard.aiondashboard.site/models/signal-audit-reports)** | Anyone can claim a track record. The published archive of signals and their outcomes, failures included. | |
-| **[Know Your Rights](https://dashboard.aiondashboard.site/models/know-your-rights)** | Legal entitlements in India, in plain language, with the provision cited. Built to refuse when a question needs a lawyer. *Pilot.* | |
+| **[Know Your Rights](https://dashboard.aiondashboard.site/models/know-your-rights)** | Most people meet the law at the worst possible moment, and the answer they need is public but unreadable. Ask in English, Hindi or Gujarati — by voice or typing, in your own script or Roman letters — and get a plain answer that names the provision it came from. Refuses when the corpus cannot answer, rather than guessing. *Pilot — open.* | [repo](https://github.com/AION-Analytics-India/know-your-rights) · [try it](https://dashboard.aiondashboard.site/models/know-your-rights/demo) |
 
 ---
 
