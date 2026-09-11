@@ -73,6 +73,22 @@ built.
 
 ---
 
+## Follow the work
+
+Both channels carry output, not announcements.
+
+| | |
+|---|---|
+| **[Telegram](https://t.me/AionAnalyticsIndia)** | Central and constitutional changes to Indian law, found each morning from India Code and the Press Information Bureau, with the source linked. |
+| **[Discord](https://discord.gg/bCuH37bv)** | The same, one thread per change, plus the daily Veritas validation record — hits and misses both. |
+
+A legal notice says *that* the law moved and links the source. It does not say
+what the law now says: nobody has reviewed it at that point, and publishing an
+interpretation ahead of a human reading the provision is the failure the whole
+project is built to avoid.
+
+---
+
 ## We're hiring — Communication Architect
 
 **We don't read CVs. We read code.**
