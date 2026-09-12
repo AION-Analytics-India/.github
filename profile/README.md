@@ -26,10 +26,20 @@ quietly wrong costs real money, and where a claim nobody can audit is worth noth
 
 ```bash
 pip install aion-indian-market-calendar        # is this market open right now?
-pip install aion-lithuanian-market-calendar    # holidays computed, never tabulated
+pip install aion-lithuanian-market-calendar    # 19 EU venues, timezone-correct
 pip install aion-indian-market-intelligence    # event -> sector impact, as JSON
 uvx aion-indian-market-intelligence-mcp        # the same, as an MCP server for agents
 ```
+
+**Install from PyPI, always.** We do not attach wheels to GitHub releases: PyPI
+is the canonical source, a wheel in a repository invites installing from a path
+nobody tests, and two ways to install is one more than anyone needs. Releases
+here carry a changelog and a link, and that is all.
+
+Both calendars send **no telemetry, no analytics and no identifiers**. Their
+holiday data updates itself from
+[aion-market-calendar-data](https://github.com/AION-Analytics-India/aion-market-calendar-data),
+hash-verified, so a new closure never needs a release.
 
 ```python
 from aion_indian_market_calendar import is_open
