@@ -18,7 +18,7 @@ We apply it first to Indian financial markets — NSE, BSE and MCX — because t
 quietly wrong costs real money, and where a claim nobody can audit is worth nothing.
 
 > **We're hiring a communication architect.** No CVs — [the challenge is the
-> application](https://dashboard.aiondashboard.site/careers).
+> application](https://aionanalytics.in/careers).
 
 ---
 
@@ -47,9 +47,9 @@ from aion_indian_market_calendar import is_open
 is_open("NSE")          # -> True / False, offline, no API key, no network call
 ```
 
-**[Try the live demo](https://dashboard.aiondashboard.site/demo)** — no signup, no card, no cookies.
+**[Try the live demo](https://aionanalytics.in/demo)** — no signup, no card, no cookies.
 
-Not a trader? **[Know Your Rights](https://dashboard.aiondashboard.site/models/know-your-rights/demo)** answers questions about Indian law in English, Hindi or Gujarati, and cites the section it came from. It is in pilot, and a rating on a *wrong* answer helps us more than a rating on a right one.
+Not a trader? **[Know Your Rights](https://aionanalytics.in/models/know-your-rights/demo)** answers questions about Indian law in English, Hindi or Gujarati, and cites the section it came from. It is in pilot, and a rating on a *wrong* answer helps us more than a rating on a right one.
 
 ---
 
@@ -73,13 +73,13 @@ built.
 
 | System | Problem it solves | |
 |---|---|---|
-| **[Indian Market Intelligence](https://dashboard.aiondashboard.site/models/indian-market-intelligence)** | A sentiment score says `negative 0.82`. Negative *for whom?* One event moves different sectors in opposite directions. Returns a signed sector vector, stakeholder views, confidence and evidence, as JSON. | [repo](https://github.com/AION-Analytics-India/aion-indian-market-intelligence) · [demo](https://dashboard.aiondashboard.site/demo) |
-| **[Sentinel](https://dashboard.aiondashboard.site/models/sentinel)** | Regulators act after the loss. Screens 2,715 listed Indian companies for disclosure that diverges from compliant peers. Two independent methods; agreement between them is the signal. Never trained on fraud labels. | [demo](https://dashboard.aiondashboard.site/demo) |
-| **[Veritas](https://dashboard.aiondashboard.site/models/veritas)** | Forecasters publish their hits and bury their misses. Pre-open probability bands for NIFTY 50, BANK NIFTY and SENSEX, scored publicly every day — misses on the permanent record. | [repo](https://github.com/AION-Analytics-India/aion-veritas) · [receipts](https://dashboard.aiondashboard.site/veritas/validation) |
-| **[Order Execution Agent](https://dashboard.aiondashboard.site/models/order-execution-agent)** | When an automated trade is disputed, no independent record exists of what the system actually did. Device-resident chain of custody from signal to executed order. *Patent application filed.* | |
-| **[Edge Engine](https://dashboard.aiondashboard.site/models/edge-engine)** | A pattern fired — but is there an edge, and does it survive costs? Two different questions, answered separately. | |
-| **[Edge Audit Reports](https://dashboard.aiondashboard.site/models/signal-audit-reports)** | Anyone can claim a track record. The published archive of signals and their outcomes, failures included. | |
-| **[Know Your Rights](https://dashboard.aiondashboard.site/models/know-your-rights)** | Most people meet the law at the worst possible moment, and the answer they need is public but unreadable. Ask in English, Hindi or Gujarati — by voice or typing, in your own script or Roman letters — and get a plain answer that names the provision it came from. Refuses when the corpus cannot answer, rather than guessing. *Pilot — open.* | [repo](https://github.com/AION-Analytics-India/know-your-rights) · [try it](https://dashboard.aiondashboard.site/models/know-your-rights/demo) |
+| **[Indian Market Intelligence](https://aionanalytics.in/models/indian-market-intelligence)** | A sentiment score says `negative 0.82`. Negative *for whom?* One event moves different sectors in opposite directions. Returns a signed sector vector, stakeholder views, confidence and evidence, as JSON. | [repo](https://github.com/AION-Analytics-India/aion-indian-market-intelligence) · [demo](https://aionanalytics.in/demo) |
+| **[Sentinel](https://aionanalytics.in/models/sentinel)** | Regulators act after the loss. Screens 2,715 listed Indian companies for disclosure that diverges from compliant peers. Two independent methods; agreement between them is the signal. Never trained on fraud labels. | [demo](https://aionanalytics.in/demo) |
+| **[Veritas](https://aionanalytics.in/models/veritas)** | Forecasters publish their hits and bury their misses. Pre-open probability bands for NIFTY 50, BANK NIFTY and SENSEX, scored publicly every day — misses on the permanent record. | [repo](https://github.com/AION-Analytics-India/aion-veritas) · [receipts](https://aionanalytics.in/veritas/validation) |
+| **[Order Execution Agent](https://aionanalytics.in/models/order-execution-agent)** | When an automated trade is disputed, no independent record exists of what the system actually did. Device-resident chain of custody from signal to executed order. *Patent application filed.* | |
+| **[Edge Engine](https://aionanalytics.in/models/edge-engine)** | A pattern fired — but is there an edge, and does it survive costs? Two different questions, answered separately. | |
+| **[Edge Audit Reports](https://aionanalytics.in/veritas/validation)** | Anyone can claim a track record. The published archive of signals and their outcomes, failures included. | |
+| **[Know Your Rights](https://aionanalytics.in/models/know-your-rights)** | Most people meet the law at the worst possible moment, and the answer they need is public but unreadable. Ask in English, Hindi or Gujarati — by voice or typing, in your own script or Roman letters — and get a plain answer that names the provision it came from. Refuses when the corpus cannot answer, rather than guessing. *Pilot — open.* | [repo](https://github.com/AION-Analytics-India/know-your-rights) · [try it](https://aionanalytics.in/models/know-your-rights/demo) |
 
 ---
 
@@ -127,7 +127,7 @@ if the work is strong, the conversation continues from there. We especially welc
 underrepresented backgrounds; the challenge is the same for everyone, and the only thing we evaluate
 is the work.
 
-**→ [Read the full challenge and submit](https://dashboard.aiondashboard.site/careers)**
+**→ [Read the full challenge and submit](https://aionanalytics.in/careers)**
 
 ---
 
@@ -169,8 +169,8 @@ research and infrastructure company.
 It is **not** Aion Analytics LLC (United States). It is **not** AION Labs (Israel). It is **not**
 Polymathic's AION (astronomy). These are separate and unaffiliated organisations that share a name.
 
-- Website: <https://dashboard.aiondashboard.site/>
-- Machine-readable identity: <https://dashboard.aiondashboard.site/llms.txt>
+- Website: <https://aionanalytics.in/>
+- Machine-readable identity: <https://aionanalytics.in/llms.txt>
 - Hugging Face: <https://huggingface.co/aion-analytics-india>
 - DEV: <https://dev.to/aion-analytics-india>
 - X: [@aion_analytics_](https://x.com/aion_analytics_)
