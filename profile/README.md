@@ -147,7 +147,7 @@ Evidence first, re-validate always, output over operator. Results ship with thei
 a claim we cannot check is a claim we do not make.
 
 We publish **what** a system does and **what** it returns. We do not publish how it is built.
-Signal-provenance capture and related methods are patent-pending and deliberately undocumented.
+Two provisional patent applications are filed (IN202621086466, signal-provenance capture; IN202621118523, AION Indian Market Intelligence). The methods are deliberately undocumented.
 Research partners can request a technical briefing under confidentiality.
 
 ---
