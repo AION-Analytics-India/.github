@@ -147,7 +147,7 @@ Evidence first, re-validate always, output over operator. Results ship with thei
 a claim we cannot check is a claim we do not make.
 
 We publish **what** a system does and **what** it returns. We do not publish how it is built.
-Two provisional patent applications are filed (IN202621086466, signal-provenance capture; IN202621118523, AION Indian Market Intelligence). The methods are deliberately undocumented.
+Three provisional patent applications are filed (IN202621086466, signal-provenance capture; IN202621118523, AION Indian Market Intelligence governance loop; IN202621119269, AION Indian Market Intelligence classification engine). The methods are deliberately undocumented.
 Research partners can request a technical briefing under confidentiality.
 
 ---
