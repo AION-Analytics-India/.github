@@ -1,5 +1,9 @@
 # AION Analytics (India)
 
+An AI systems and software company building domain-specific intelligence infrastructure.
+
+Our public work serves markets, citizens and developers, with product availability described individually in the [current registry](https://aionanalytics.in/models). Start with the [developer guide](https://aionanalytics.in/for-developers), [citizen guide](https://aionanalytics.in/for-citizens) or [research library](https://aionanalytics.in/research).
+
 **We build systems that can be proven wrong.**
 
 Most software that predicts or acts on your behalf cannot be checked afterwards. Logs are editable.
@@ -42,9 +46,12 @@ holiday data updates itself from
 hash-verified, so a new closure never needs a release.
 
 ```python
-from aion_indian_market_calendar import is_open
+import os
+os.environ["AION_IN_CALENDAR_OFFLINE"] = "1"  # use bundled data without refresh
 
-is_open("NSE")          # -> True / False, offline, no API key, no network call
+from aion_indian_market_calendar import is_market_open
+
+is_market_open("NSE")  # -> True / False for the current time, no API key
 ```
 
 **[Try the live demo](https://aionanalytics.in/demo)** — no signup, no card, no cookies.
@@ -60,16 +67,14 @@ Not a trader? **[Know Your Rights](https://aionanalytics.in/models/know-your-rig
 | **[aion-indian-market-calendar](https://github.com/AION-Analytics-India/aion-indian-market-calendar)** | Trading-session and holiday validation for NSE, BSE, MCX, CDS and Muhurat. Runs offline, no API key. | [![PyPI](https://img.shields.io/pypi/v/aion-indian-market-calendar)](https://pypi.org/project/aion-indian-market-calendar/) |
 | **[aion-lithuanian-market-calendar](https://github.com/AION-Analytics-India/aion-lithuanian-market-calendar)** | Lithuanian public, bank and market holidays. Moveable feasts are computed from the rule, so no year runs out. Bilingual (EN/LT). | [![PyPI](https://img.shields.io/pypi/v/aion-lithuanian-market-calendar)](https://pypi.org/project/aion-lithuanian-market-calendar/) |
 | **[aion-mcp-server](https://github.com/AION-Analytics-India/aion-mcp-server)** | MCP server exposing Indian market intelligence to LLM agents and assistants. | [![PyPI](https://img.shields.io/pypi/v/aion-indian-market-intelligence-mcp)](https://pypi.org/project/aion-indian-market-intelligence-mcp/) |
-| **[aion-zerodha-bot-tutorial](https://github.com/AION-Analytics-India/aion-zerodha-bot-tutorial)** | Worked notebook: news to signal with Zerodha, Groww and NSE symbol mapping. | |
 
-**7,000+ downloads** across the calendar packages.
+Package download events are not unique developers or successful installations.
 
 ---
 
 ## Products
 
-Each of these is live. Links go to what the system does and what it returns — never to how it is
-built.
+Availability differs by product. Check the [current product registry](https://aionanalytics.in/models) for deployed services, pilots and direct-engagement offerings.
 
 | System | Problem it solves | |
 |---|---|---|
