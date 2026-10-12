@@ -94,8 +94,8 @@ Both channels carry output, not announcements.
 
 | | |
 |---|---|
-| **[Telegram](https://t.me/AionAnalyticsIndia)** | Central and constitutional changes to Indian law, found each morning from India Code and the Press Information Bureau, with the source linked. |
-| **[Discord](https://discord.gg/bCuH37bv)** | The same, one thread per change, plus the daily Veritas validation record — hits and misses both. |
+| **[Telegram](https://t.me/+VXWCiDgZjBI3ZjA1)** | Central and constitutional changes to Indian law, found each morning from India Code and the Press Information Bureau, with the source linked. |
+| **[Discord](https://discord.gg/uC4YM433RD)** | The same, one thread per change, plus the daily Veritas validation record — hits and misses both. |
 
 A legal notice says *that* the law moved and links the source. It does not say
 what the law now says: nobody has reviewed it at that point, and publishing an
@@ -177,7 +177,6 @@ Polymathic's AION (astronomy). These are separate and unaffiliated organisations
 - Website: <https://aionanalytics.in/>
 - Machine-readable identity: <https://aionanalytics.in/llms.txt>
 - Hugging Face: <https://huggingface.co/aion-analytics-india>
-- DEV: <https://dev.to/aion-analytics-india>
 - X: [@aion_analytics_](https://x.com/aion_analytics_)
 
 ---
