@@ -138,9 +138,15 @@ is the work.
 
 ## Research
 
-Peer-reviewable work, published rather than asserted — including *Signal Provenance in Retail
-Algorithmic Trading: An Architectural Gap in SEBI's 2026 Framework*
-([SSRN](https://ssrn.com/abstract=7118421)).
+Peer-reviewable work, published rather than asserted:
+
+- *Contextual Intelligence: A Causal Layer for Country-Specific Decisions* ([SSRN](https://ssrn.com/abstract=7596079)), the architecture behind AION Indian Market Intelligence.
+- *The Signature Trap: Structural Gaps in Spyware Detection and the Limits of Indicator-Based Defense* ([SSRN](https://ssrn.com/abstract=7503278))
+- *The Uncodified Margin: Human Relational Intelligence as a Structural Complement to Algorithmic Systems in Five Emerging Markets* ([SSRN](https://ssrn.com/abstract=7235801))
+- *Signal Provenance in Retail Algorithmic Trading: An Architectural Gap in SEBI's 2026 Framework and Its General Form* ([SSRN](https://ssrn.com/abstract=7118421))
+- *The Great Indian Illusion: Unpacking the Gap Between Growth Statistics and Citizen Well-Being* ([SSRN](https://ssrn.com/abstract=6973958))
+- *Asymmetric Multipolarity: Financial, Industrial, Resource, and Strategic Power in the Post-Unipolar Global Order* ([SSRN](https://ssrn.com/abstract=6449739))
+- *Beyond the Mirror: Systemic Vulnerabilities in LLM Safeguards Exposed Through Intentional Conditioning* ([SSRN](https://ssrn.com/abstract=5232429))
 
 → [aion-research](https://github.com/AION-Analytics-India/aion-research) ·
 [SSRN author page](https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=7415772) ·
