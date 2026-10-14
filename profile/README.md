@@ -181,6 +181,7 @@ It is **not** Aion Analytics LLC (United States). It is **not** AION Labs (Israe
 Polymathic's AION (astronomy). These are separate and unaffiliated organisations that share a name.
 
 - Website: <https://aionanalytics.in/>
+- LinkedIn: <https://www.linkedin.com/company/aion-analytics-india/>
 - Machine-readable identity: <https://aionanalytics.in/llms.txt>
 - Hugging Face: <https://huggingface.co/aion-analytics-india>
 - X: [@aion_analytics_](https://x.com/aion_analytics_)
