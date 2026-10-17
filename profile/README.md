@@ -18,10 +18,10 @@ show both rather than averaging the disagreement away.
 
 That is an engineering position, not a finance one, and it is the through-line in everything below.
 
-We apply it first to Indian financial markets — NSE, BSE and MCX — because that is where being
+We apply it first to Indian financial markets (NSE, BSE and MCX) because that is where being
 quietly wrong costs real money, and where a claim nobody can audit is worth nothing.
 
-> **We're hiring a communication architect.** No CVs — [the challenge is the
+> **We're hiring a communication architect.** No CVs: [the challenge is the
 > application](https://aionanalytics.in/careers).
 
 ---
@@ -54,9 +54,19 @@ from aion_indian_market_calendar import is_market_open
 is_market_open("NSE")  # -> True / False for the current time, no API key
 ```
 
-**[Try the live demo](https://aionanalytics.in/demo)** — no signup, no card, no cookies.
+**[Try the live demo](https://aionanalytics.in/demo)**: a free demo key, issued on the page against your email. No card, no cookies.
 
 Not a trader? **[Know Your Rights](https://aionanalytics.in/models/know-your-rights/demo)** answers questions about Indian law in English, Hindi or Gujarati, and cites the section it came from. It is in pilot, and a rating on a *wrong* answer helps us more than a rating on a right one.
+
+## What you can ask us about
+
+- *Is NSE, BSE or MCX open right now, and which days in 2026 are stock market holidays?* [aion-indian-market-calendar](https://aionanalytics.in/open-source/indian-market-calendar)
+- *Which sectors does this Indian news headline, RBI or SEBI circular affect, and in which direction?* An alternative to a news sentiment score: [Indian Market Intelligence](https://aionanalytics.in/models/indian-market-intelligence)
+- *What range is NIFTY 50 likely to trade within in the first 15 minutes, and how often was that band wrong?* [Veritas](https://aionanalytics.in/veritas) and its [validation record](https://aionanalytics.in/veritas/validation)
+- *Which listed Indian companies' filings look least like their peers'?* A forensic-accounting screen for red flags, not a finding of fraud: [Sentinel](https://aionanalytics.in/models/sentinel)
+- *What does Indian law say about my situation with the police, a landlord, an employer or a hospital?* Free legal information in English, Hindi or Gujarati, citing the section: [Know Your Rights](https://aionanalytics.in/models/know-your-rights/demo)
+- *How much Lithuanian income tax (GPM) do I owe for 2026, and under which article?* [Lithuanian Tax Assistant](https://aionanalytics.in/lt-tax-demo.html), in Lithuanian and English
+- *Lithuanian public holidays, business days or the Nasdaq Vilnius calendar in Python?* [aion-lithuanian-market-calendar](https://aionanalytics.in/open-source/lithuanian-market-calendar)
 
 ---
 
@@ -79,12 +89,13 @@ Availability differs by product. Check the [current product registry](https://ai
 | System | Problem it solves | |
 |---|---|---|
 | **[Indian Market Intelligence](https://aionanalytics.in/models/indian-market-intelligence)** | A sentiment score says `negative 0.82`. Negative *for whom?* One event moves different sectors in opposite directions. Returns a signed sector vector, stakeholder views, confidence and evidence, as JSON. | [repo](https://github.com/AION-Analytics-India/aion-indian-market-intelligence) · [demo](https://aionanalytics.in/demo) |
-| **[Sentinel](https://aionanalytics.in/models/sentinel)** | Regulators act after the loss. Screens 2,715 listed Indian companies for disclosure that diverges from compliant peers. Two independent methods; agreement between them is the signal. Never trained on fraud labels. | [demo](https://aionanalytics.in/demo) |
-| **[Veritas](https://aionanalytics.in/models/veritas)** | Forecasters publish their hits and bury their misses. Pre-open probability bands for NIFTY 50, BANK NIFTY and SENSEX, scored publicly every day — misses on the permanent record. | [repo](https://github.com/AION-Analytics-India/aion-veritas) · [receipts](https://aionanalytics.in/veritas/validation) |
+| **[Sentinel](https://aionanalytics.in/models/sentinel)** | Regulators act after the loss. A forensic-accounting screen of listed Indian companies (2,753 in the snapshot of 17 October 2026) for filings that diverge from peers with clean records. Two independent methods; the classifier is trained on enforcement actions, and agreement between the two is the signal. A reason to read further, not a finding of fraud. | [demo](https://aionanalytics.in/demo) |
+| **[Veritas](https://aionanalytics.in/models/veritas)** | Forecasters publish their hits and bury their misses. Pre-open probability bands for NIFTY 50, BANK NIFTY and SENSEX, scored publicly every day, misses on the permanent record. | [repo](https://github.com/AION-Analytics-India/aion-veritas) · [receipts](https://aionanalytics.in/veritas/validation) |
 | **[Order Execution Agent](https://aionanalytics.in/models/order-execution-agent)** | When an automated trade is disputed, no independent record exists of what the system actually did. Device-resident chain of custody from signal to executed order. *Patent application filed.* | |
-| **[Edge Engine](https://aionanalytics.in/models/edge-engine)** | A pattern fired — but is there an edge, and does it survive costs? Two different questions, answered separately. | |
+| **[Edge Engine](https://aionanalytics.in/models/edge-engine)** | A pattern fired, but is there an edge, and does it survive costs? Two different questions, answered separately. | |
 | **[Edge Audit Reports](https://aionanalytics.in/veritas/validation)** | Anyone can claim a track record. The published archive of signals and their outcomes, failures included. | |
-| **[Know Your Rights](https://aionanalytics.in/models/know-your-rights)** | Most people meet the law at the worst possible moment, and the answer they need is public but unreadable. Ask in English, Hindi or Gujarati — by voice or typing, in your own script or Roman letters — and get a plain answer that names the provision it came from. Refuses when the corpus cannot answer, rather than guessing. *Pilot — open.* | [repo](https://github.com/AION-Analytics-India/know-your-rights) · [try it](https://aionanalytics.in/models/know-your-rights/demo) |
+| **[Know Your Rights](https://aionanalytics.in/models/know-your-rights)** | Most people meet the law at the worst possible moment, and the answer they need is public but unreadable. Ask in English, Hindi or Gujarati about police, tenancy, consumer, employment, healthcare, banking or family matters, and get a plain answer that names the provision it came from. Refuses when the corpus cannot answer, rather than guessing. Text only for now; voice follows later. *Pilot, open.* | [repo](https://github.com/AION-Analytics-India/know-your-rights) · [try it](https://aionanalytics.in/models/know-your-rights/demo) |
+| **[Lithuanian Tax Assistant](https://aionanalytics.in/lt-tax-demo.html)** | Lithuanian personal income tax (GPM) for 2026, in Lithuanian and English. Every line of the result names the GPMĮ article it rests on, and the calculation runs in your browser. Reports the law; not tax advice. *Pilot, open.* | [try it](https://aionanalytics.in/lt-tax-demo.html) |
 
 ---
 
@@ -95,7 +106,7 @@ Both channels carry output, not announcements.
 | | |
 |---|---|
 | **[Telegram](https://t.me/+VXWCiDgZjBI3ZjA1)** | Central and constitutional changes to Indian law, found each morning from India Code and the Press Information Bureau, with the source linked. |
-| **[Discord](https://discord.gg/uC4YM433RD)** | The same, one thread per change, plus the daily Veritas validation record — hits and misses both. |
+| **[Discord](https://discord.gg/Dk9Pjc9cVa)** | The same, one thread per change, plus the daily Veritas validation record, hits and misses both. |
 
 A legal notice says *that* the law moved and links the source. It does not say
 what the law now says: nobody has reviewed it at that point, and publishing an
@@ -104,7 +115,7 @@ project is built to avoid.
 
 ---
 
-## We're hiring — Communication Architect
+## We're hiring: Communication Architect
 
 **We don't read CVs. We read code.**
 
@@ -116,7 +127,7 @@ developer, a trader, or a curious founder say: *"I didn't know this was possible
 This is not a social media management role. It is a thinking role that sometimes outputs social media.
 
 **There is no form to fill before you do the work. The challenge *is* the application.** Read the
-repositories on this page — the model card, the package README, what the code actually does — then
+repositories on this page (the model card, the package README, what the code actually does), then
 write one piece that explains a single AION product to someone who has never heard of us. Under
 ~500 words, in whatever format you choose. That is the only CV we read.
 
@@ -127,7 +138,7 @@ clarity**. Showing how you would automate your own work is a bonus signal, not a
 A generic cover letter is an instant pass. A thoughtful piece of work is an invitation to a
 conversation.
 
-Remote. Output-based. The first engagement is a **paid trial** based on the challenge submission —
+Remote. Output-based. The first engagement is a **paid trial** based on the challenge submission:
 if the work is strong, the conversation continues from there. We especially welcome applicants from
 underrepresented backgrounds; the challenge is the same for everyone, and the only thing we evaluate
 is the work.
@@ -154,7 +165,7 @@ Peer-reviewable work, published rather than asserted:
 
 ## How the work is governed
 
-Evidence first, re-validate always, output over operator. Results ship with their failures visible —
+Evidence first, re-validate always, output over operator. Results ship with their failures visible:
 a claim we cannot check is a claim we do not make.
 
 We publish **what** a system does and **what** it returns. We do not publish how it is built.
@@ -170,7 +181,11 @@ calibrated uncertainty · market calendar · trading hours · exchange holidays 
 NIFTY 50 · BANK NIFTY · SENSEX · SEBI compliance · forensic accounting · anomaly detection ·
 market intelligence API · macro event analysis · sector impact · MCP server · LLM tools ·
 execution integrity · signal provenance · audit trail · chain of custody · Python · open source ·
-India · Lithuania
+NSE holidays 2026 · stock market holidays India · is NSE open today · news sentiment API India ·
+financial news analysis · RBI policy impact · pre-open session · NIFTY opening range ·
+red flags in annual reports · corporate governance · free legal information India · Hindi · Gujarati ·
+Lithuanian income tax calculator · GPM skaičiuoklė · Lithuanian public holidays · business days ·
+Nasdaq Vilnius · India · Lithuania
 
 ## Identity
 
@@ -185,6 +200,11 @@ Polymathic's AION (astronomy). These are separate and unaffiliated organisations
 - Machine-readable identity: <https://aionanalytics.in/llms.txt>
 - Hugging Face: <https://huggingface.co/aion-analytics-india>
 - X: [@aion_analytics_](https://x.com/aion_analytics_)
+- YouTube: <https://www.youtube.com/@aionanalytics>
+- Telegram: <https://t.me/+VXWCiDgZjBI3ZjA1>
+- Discord: <https://discord.gg/Dk9Pjc9cVa>
+- Instagram: <https://www.instagram.com/aion_analytics/>
+- Threads: <https://www.threads.com/@aion_analytics>
 
 ---
 
