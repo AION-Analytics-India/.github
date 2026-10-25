@@ -29,8 +29,8 @@ quietly wrong costs real money, and where a claim nobody can audit is worth noth
 ## Start here
 
 ```bash
-pip install aion-indian-market-calendar        # is this market open right now?
-pip install aion-lithuanian-market-calendar    # 19 EU venues, timezone-correct
+pip install aion-indian-market-calendar        # open now? settlement day? next NIFTY expiry?
+pip install aion-lithuanian-market-calendar    # holidays, TARGET settlement, 19 EU venues
 pip install aion-indian-market-intelligence    # event -> sector impact, as JSON
 uvx aion-indian-market-intelligence-mcp        # the same, as an MCP server for agents
 ```
@@ -49,9 +49,11 @@ hash-verified, so a new closure never needs a release.
 import os
 os.environ["AION_IN_CALENDAR_OFFLINE"] = "1"  # use bundled data without refresh
 
-from aion_indian_market_calendar import is_market_open
+from aion_indian_market_calendar import is_market_open, get_expiry_day, get_market_phase
 
-is_market_open("NSE")  # -> True / False for the current time, no API key
+is_market_open("NSE")           # -> True / False for the current time, no API key
+get_market_phase(market="NSE")  # -> "PRE_OPEN", "CONTINUOUS", "CLOSING_AUCTION", ...
+get_expiry_day("BANKNIFTY")     # -> next monthly expiry, moved earlier if it falls on a holiday
 ```
 
 **[Try the live demo](https://aionanalytics.in/demo)**: a free demo key, issued on the page against your email. No card, no cookies.
@@ -61,12 +63,14 @@ Not a trader? **[Know Your Rights](https://aionanalytics.in/models/know-your-rig
 ## What you can ask us about
 
 - *Is NSE, BSE or MCX open right now, and which days in 2026 are stock market holidays?* [aion-indian-market-calendar](https://aionanalytics.in/open-source/indian-market-calendar)
+- *When does the next NIFTY, BANKNIFTY or SENSEX contract expire, and does NSE Clearing settle today?* [aion-indian-market-calendar](https://aionanalytics.in/open-source/indian-market-calendar), from the exchange circulars it cites
 - *Which sectors does this Indian news headline, RBI or SEBI circular affect, and in which direction?* An alternative to a news sentiment score: [Indian Market Intelligence](https://aionanalytics.in/models/indian-market-intelligence)
 - *What range is NIFTY 50 likely to trade within in the first 15 minutes, and how often was that band wrong?* [Veritas](https://aionanalytics.in/veritas) and its [validation record](https://aionanalytics.in/veritas/validation)
 - *Which listed Indian companies' filings look least like their peers'?* A forensic-accounting screen for red flags, not a finding of fraud: [Sentinel](https://aionanalytics.in/models/sentinel)
 - *What does Indian law say about my situation with the police, a landlord, an employer or a hospital?* Free legal information in English, Hindi or Gujarati, citing the section: [Know Your Rights](https://aionanalytics.in/models/know-your-rights/demo)
 - *How much Lithuanian income tax (GPM) do I owe for 2026, and under which article?* [Lithuanian Tax Assistant](https://aionanalytics.in/lt-tax-demo.html), in Lithuanian and English
 - *Lithuanian public holidays, business days or the Nasdaq Vilnius calendar in Python?* [aion-lithuanian-market-calendar](https://aionanalytics.in/open-source/lithuanian-market-calendar)
+- *Does TARGET settle euro payments today, even though it is a Lithuanian holiday?* [aion-lithuanian-market-calendar](https://aionanalytics.in/open-source/lithuanian-market-calendar)
 
 ---
 
@@ -74,8 +78,8 @@ Not a trader? **[Know Your Rights](https://aionanalytics.in/models/know-your-rig
 
 | Package | What it does | |
 |---|---|---|
-| **[aion-indian-market-calendar](https://github.com/AION-Analytics-India/aion-indian-market-calendar)** | Trading-session and holiday validation for NSE, BSE, MCX, CDS and Muhurat. Runs offline, no API key. | [![PyPI](https://img.shields.io/pypi/v/aion-indian-market-calendar)](https://pypi.org/project/aion-indian-market-calendar/) |
-| **[aion-lithuanian-market-calendar](https://github.com/AION-Analytics-India/aion-lithuanian-market-calendar)** | Lithuanian public, bank and market holidays. Moveable feasts are computed from the rule, so no year runs out. Bilingual (EN/LT). | [![PyPI](https://img.shields.io/pypi/v/aion-lithuanian-market-calendar)](https://pypi.org/project/aion-lithuanian-market-calendar/) |
+| **[aion-indian-market-calendar](https://github.com/AION-Analytics-India/aion-indian-market-calendar)** | Trading-session and holiday validation for NSE, BSE, MCX, CDS and Muhurat. From 1.6.0: NSE Clearing settlement days, intraday phases (pre-open, continuous, closing auction, post-close) and derivative expiry dates from the NSE and BSE circulars. Runs offline, no API key. | [![PyPI](https://img.shields.io/pypi/v/aion-indian-market-calendar)](https://pypi.org/project/aion-indian-market-calendar/) |
+| **[aion-lithuanian-market-calendar](https://github.com/AION-Analytics-India/aion-lithuanian-market-calendar)** | Lithuanian public, bank and market holidays. Moveable feasts are computed from the rule, so no year runs out. From 1.1.0: TARGET settlement days, which differ from Lithuanian holidays in both directions, and the trading phase for 19 EU venues. Bilingual (EN/LT). | [![PyPI](https://img.shields.io/pypi/v/aion-lithuanian-market-calendar)](https://pypi.org/project/aion-lithuanian-market-calendar/) |
 | **[aion-mcp-server](https://github.com/AION-Analytics-India/aion-mcp-server)** | MCP server exposing Indian market intelligence to LLM agents and assistants. | [![PyPI](https://img.shields.io/pypi/v/aion-indian-market-intelligence-mcp)](https://pypi.org/project/aion-indian-market-intelligence-mcp/) |
 
 Package download events are not unique developers or successful installations.
