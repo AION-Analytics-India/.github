@@ -68,7 +68,7 @@ Not a trader? **[Know Your Rights](https://aionanalytics.in/models/know-your-rig
 - *What range is NIFTY 50 likely to trade within in the first 15 minutes, and how often was that band wrong?* [Veritas](https://aionanalytics.in/veritas) and its [validation record](https://aionanalytics.in/veritas/validation)
 - *Which listed Indian companies' filings look least like their peers'?* A forensic-accounting screen for red flags, not a finding of fraud: [Sentinel](https://aionanalytics.in/models/sentinel)
 - *What does Indian law say about my situation with the police, a landlord, an employer or a hospital?* Free legal information in English, Hindi or Gujarati, citing the section: [Know Your Rights](https://aionanalytics.in/models/know-your-rights/demo)
-- *How much Lithuanian income tax (GPM) do I owe for 2026, and under which article?* [Lithuanian Tax Assistant](https://aionanalytics.in/lt-tax-demo.html), in Lithuanian and English
+- *How much Lithuanian income tax (GPM) might apply to my income?* [Lithuanian Tax Assistant](https://aionanalytics.in/lt-tax-demo.html), in Lithuanian and English
 - *Lithuanian public holidays, business days or the Nasdaq Vilnius calendar in Python?* [aion-lithuanian-market-calendar](https://aionanalytics.in/open-source/lithuanian-market-calendar)
 - *Does TARGET settle euro payments today, even though it is a Lithuanian holiday?* [aion-lithuanian-market-calendar](https://aionanalytics.in/open-source/lithuanian-market-calendar)
 
