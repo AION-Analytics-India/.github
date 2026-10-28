@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: API account and entitlement support
+    url: https://aionanalytics.in/contact
+    about: Contact support without putting private account details in public issues.
