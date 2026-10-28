@@ -1,0 +1,25 @@
+name: Package defect
+description: Report a reproducible problem in a public package
+body:
+  - type: markdown
+    attributes:
+      value: "Do not include credentials or private data. Do not report vulnerabilities in public issues; consult the affected repository's security policy where available. Account and entitlement problems belong with customer support."
+  - type: input
+    id: versions
+    attributes:
+      label: Package, Python and operating-system versions
+    validations:
+      required: true
+  - type: textarea
+    id: example
+    attributes:
+      label: Minimal public example and steps
+      description: Include relevant configuration with secrets removed.
+    validations:
+      required: true
+  - type: textarea
+    id: results
+    attributes:
+      label: Expected and actual result
+    validations:
+      required: true

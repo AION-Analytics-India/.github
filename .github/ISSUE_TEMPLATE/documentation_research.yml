@@ -1,0 +1,20 @@
+name: Documentation or research correction
+description: Identify an inaccurate passage with public supporting evidence
+body:
+  - type: input
+    id: source
+    attributes:
+      label: Page URL or publication DOI
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: Passage, correction and supporting evidence
+      description: Use public evidence only. Do not upload proprietary methods or restricted data.
+    validations:
+      required: true
+  - type: textarea
+    id: limits
+    attributes:
+      label: Limitations or alternative interpretation
