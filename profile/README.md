@@ -155,6 +155,7 @@ is the work.
 
 Peer-reviewable work, published rather than asserted:
 
+- *Signal Provenance, Part 2. The Structural Harvest: Why SEBI's Retail Protection Measures Do Not Reach the Losses in Indian Index Derivatives* ([SSRN](https://ssrn.com/abstract=7663940)), Part 2 of the Signal Provenance series.
 - *Contextual Intelligence: A Causal Layer for Country-Specific Decisions* ([SSRN](https://ssrn.com/abstract=7596079)), the architecture behind AION Indian Market Intelligence.
 - *The Signature Trap: Structural Gaps in Spyware Detection and the Limits of Indicator-Based Defense* ([SSRN](https://ssrn.com/abstract=7503278))
 - *The Uncodified Margin: Human Relational Intelligence as a Structural Complement to Algorithmic Systems in Five Emerging Markets* ([SSRN](https://ssrn.com/abstract=7235801))
