@@ -94,7 +94,7 @@ Information, not advice. AION Analytics is not registered with SEBI as a Researc
 
 Three provisional patent applications are publicly disclosed: IN202621086466 (signal provenance / Order Execution Agent), and IN202621118523 and IN202621119269 (Indian Market Intelligence). Proprietary implementations remain confidential. [Current product disclosures](https://aionanalytics.in/models)
 
-[Website](https://aionanalytics.in/) · [LinkedIn](https://www.linkedin.com/company/aion-analytics-india/) · [Hugging Face](https://huggingface.co/aion-analytics-india) · [X](https://x.com/aion_analytics_) · [YouTube](https://www.youtube.com/@aionanalytics) · [Telegram](https://t.me/+VXWCiDgZjBI3ZjA1) · [Discord](https://discord.gg/Dk9Pjc9cVa)
+[Website](https://aionanalytics.in/) · [LinkedIn](https://www.linkedin.com/company/aion-analytics-india/) · [Hugging Face](https://huggingface.co/aion-analytics-india) · [Google Scholar](https://scholar.google.com/citations?user=QuCFm9YAAAAJ) · [X](https://x.com/aion_analytics_) · [YouTube](https://www.youtube.com/@aionanalytics) · [Instagram](https://www.instagram.com/aion_analytics/) · [Threads](https://www.threads.com/%40aion_analytics) · [Telegram](https://t.me/+VXWCiDgZjBI3ZjA1) · [Discord](https://discord.gg/Dk9Pjc9cVa)
 
 ## Hiring
 
