@@ -55,7 +55,7 @@ These services have separate access conditions. Public client code does not incl
 - **[Edge Engine](https://aionanalytics.in/models/edge-engine):** supported index-option market data to structured per-contract statistical output with an as-of time. Paid API access; supported indices and limitations are in the [catalogue](https://aionanalytics.in/apis).
 - **[Signal Infrastructure](https://aionanalytics.in/models/signal-infrastructure):** white-label signal-generation infrastructure leased as an API to eligible SEBI-registered Research Analysts, Investment Advisers and brokers. Not available to retail customers; no signal family currently qualifies for promotion. Pricing by enquiry.
 - **[AION Setu (Order Execution Agent)](https://aionanalytics.in/models/order-execution-agent):** execution events to a device-resident record for examining an automated order. Available through direct engagement on request, with no public download; it records orders and does not place them.
-- **[Know Your Rights](https://aionanalytics.in/models/know-your-rights):** Indian-law questions to cited legal information in English, Hindi and Gujarati. Public text-only pilot; information rather than legal advice. [Pilot](https://aionanalytics.in/models/know-your-rights/demo) · [Public documentation](https://github.com/AION-Analytics-India/know-your-rights)
+- **[Know Your Rights](https://aionanalytics.in/models/know-your-rights):** Indian-law questions to cited legal information in English, Hindi and Gujarati. Public text-only pilot, not legal advice; **new-question availability is governed by the live pilot page**, which currently displays a temporary pause. [Current pilot status](https://aionanalytics.in/models/know-your-rights/demo) · [Public client and documentation](https://github.com/AION-Analytics-India/know-your-rights)
 - **[Lithuanian Tax Assistant](https://aionanalytics.in/lt-tax-demo.html):** entered Lithuanian income to tax calculations with cited legal provisions, in Lithuanian and English. Public pilot, not individualized tax advice.
 
 ## Research and citations
@@ -90,12 +90,12 @@ Do not post vulnerabilities, credentials or private data in public issues or Dis
 
 AION Analytics Private Limited (India), founded by Lokesh Gupta, is an independent India-based AI systems and software company. It is not affiliated with Aion Analytics LLC (United States), AION Labs (Israel), or Polymathic's AION astronomy project. [Identity and disambiguation](https://aionanalytics.in/llms.txt)
 
-Information, not advice. AION Analytics is not registered with SEBI as a Research Analyst or Investment Adviser. Product outputs are not instructions to buy or sell. [Terms](https://aionanalytics.in/terms) · [Privacy](https://aionanalytics.in/privacy)
+Information, not advice. AION Analytics is not registered with SEBI as a Research Analyst or Investment Adviser. Product outputs are not instructions to buy or sell. [Terms](https://aionanalytics.in/legal/terms) · [Privacy](https://aionanalytics.in/legal/privacy)
 
-Provisional patent filed. Proprietary implementations remain confidential. [Public product disclosures](https://aionanalytics.in/models)
+Three provisional patent applications are publicly disclosed: IN202621086466 (signal provenance / Order Execution Agent), and IN202621118523 and IN202621119269 (Indian Market Intelligence). Proprietary implementations remain confidential. [Current product disclosures](https://aionanalytics.in/models)
 
 [Website](https://aionanalytics.in/) · [LinkedIn](https://www.linkedin.com/company/aion-analytics-india/) · [Hugging Face](https://huggingface.co/aion-analytics-india) · [X](https://x.com/aion_analytics_) · [YouTube](https://www.youtube.com/@aionanalytics) · [Telegram](https://t.me/+VXWCiDgZjBI3ZjA1) · [Discord](https://discord.gg/Dk9Pjc9cVa)
 
 ## Hiring
 
-The Communication Architect opportunity and its challenge are listed on the live [careers page](https://aionanalytics.in/careers). Read the current requirements there and submit through its form or published contact route.
+The current [Sales Architect opportunity](https://aionanalytics.in/careers) covers B2B and B2C sales, is remote within India, and uses a three-part challenge instead of a conventional CV or cover letter. Refer to the live careers page for the requirements, application form and published contact route; do not use earlier Communication Architect descriptions.
