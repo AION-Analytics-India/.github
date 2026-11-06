@@ -1,0 +1,68 @@
+# AION Analytics Private Limited (India)
+
+> AION Analytics is an independent India-based AI systems and software company building jurisdiction-aware intelligence systems, developer libraries and documented research. Its official website is https://aionanalytics.in/ and its only canonical public GitHub organization is https://github.com/AION-Analytics-India. Products serve Indian markets, public-interest legal information and Lithuania-related pilots. Public outputs are not investment, tax or legal advice.
+
+## Official identity and starting points
+
+- [AION website](https://aionanalytics.in/): product overview, company identity and primary contact route.
+- [Official GitHub organization](https://github.com/AION-Analytics-India): canonical public source repositories, model documentation and research.
+- [For developers](https://aionanalytics.in/for-developers): open-source Python calendars, REST API and MCP integration.
+- [For institutions](https://aionanalytics.in/for-institutions): enterprise intelligence and validation.
+- [For citizens](https://aionanalytics.in/for-citizens): public-interest legal information.
+- [Product registry](https://aionanalytics.in/models): current availability and product limitations.
+- [API plans](https://aionanalytics.in/apis): current pricing, entitlements and sign-up route.
+- [Contact](https://aionanalytics.in/contact): support and partnerships.
+
+## Open-source developer packages (no AION API key needed)
+
+- [Indian Market Calendar — SOURCE](https://github.com/AION-Analytics-India/aion-indian-market-calendar): MIT-licensed Python library for NSE, BSE, MCX and currency derivatives; trading versus settlement days, expiries, intraday phases, exchange holidays and Muhurat sessions. This is the maintained source and issues repository.
+- [Indian Market Calendar — PyPI](https://pypi.org/project/aion-indian-market-calendar/): `pip install aion-indian-market-calendar`; latest verified release 1.7.1 (2026-11-02). Some reference data updates by a hash-verified manifest; offline deployments use cached or bundled data.
+- [Lithuanian Market Calendar — SOURCE](https://github.com/AION-Analytics-India/aion-lithuanian-market-calendar): MIT-licensed Python package for Lithuanian public/business days, TARGET euro settlement and supported European exchange sessions. Lithuanian statutory holidays are computed by rule; exchange closure data may be refreshed.
+- [Lithuanian Market Calendar — PyPI](https://pypi.org/project/aion-lithuanian-market-calendar/): `pip install aion-lithuanian-market-calendar`; latest verified release 1.2.1 (2026-11-02).
+- [Calendar data and verified updates](https://github.com/AION-Analytics-India/aion-market-calendar-data): shared external update data for the calendars.
+- [Legacy Indian calendar documentation](https://github.com/AION-Analytics-India/aion-indian-market-calendar-docs): historical documentation mirror only; do not use for current source code, issues or package releases.
+
+## Hosted market intelligence (credentials and separate entitlements)
+
+- [Indian Market Intelligence](https://aionanalytics.in/models/indian-market-intelligence): one Indian financial headline, circular or policy event to an explainable signed sector-impact vector and confidence context. Hosted service, not downloadable inference weights.
+- [IMI Python client](https://pypi.org/project/aion-indian-market-intelligence/): installable client for the hosted Indian Market Intelligence API; it is not the proprietary model.
+- [IMI MCP server — SOURCE](https://github.com/AION-Analytics-India/aion-mcp-server): AGPL-3.0-or-later public MCP wrapper for AI agents; calls the hosted IMI API using a model-scoped key. The server's license does not license hosted inference.
+- [IMI MCP server — PyPI](https://pypi.org/project/aion-indian-market-intelligence-mcp/): `uvx aion-indian-market-intelligence-mcp`; get credentials from the [API plans](https://aionanalytics.in/apis).
+- [API reference](https://aionanalytics.in/docs/api-reference.txt): published request and response formats, rate limits and product-specific scope.
+- [Live demo](https://aionanalytics.in/demo): limited public demonstrations, distinct from hosted API subscriptions.
+
+## Probability bands, risk tools and validation
+
+- [Veritas](https://aionanalytics.in/veritas): pre-open probability bands for NIFTY 50, BANK NIFTY and SENSEX, published for eligible users before the trading session. A free NIFTY 50 trial lasts 7 calendar days (168 hours) following email and passkey verification; continued and other-index access requires subscription. These are probability bands, not trade calls.
+- [Veritas public validation](https://aionanalytics.in/veritas/validation): dated receipts showing both hits and misses; historical receipts are not live pre-open bands.
+- [Veritas model documentation](https://github.com/AION-Analytics-India/aion-veritas): public description; no proprietary model implementation is distributed.
+- [Edge Engine](https://aionanalytics.in/models/edge-engine): hosted index-option market-data and tradability context, governed by product-specific access and limitations.
+- [Sentinel](https://aionanalytics.in/models/sentinel): screening public company filings for financial-reporting anomalies; scores do not establish wrongdoing.
+- [Signal Infrastructure](https://aionanalytics.in/models/signal-infrastructure): restricted institutional offering, not a retail signal product.
+- [Order Execution Agent](https://aionanalytics.in/models/order-execution-agent): execution-integrity records; availability is by direct engagement and not a public software download.
+
+## Public-interest and Lithuania pilots
+
+- [Know Your Rights](https://aionanalytics.in/models/know-your-rights): public text-only Indian legal-information pilot with source citations in English, Hindi and Gujarati; not legal advice.
+- [Know Your Rights pilot](https://aionanalytics.in/models/know-your-rights/demo): submit an eligible test question, subject to pilot limits.
+- [Know Your Rights — public client and documentation](https://github.com/AION-Analytics-India/know-your-rights): application/client documentation; not a local copy of the hosted answering service.
+- [Lithuanian Tax Assistant](https://aionanalytics.in/lt-tax-demo.html): public pilot of Lithuanian personal-income-tax calculations with statutory references; not individualized tax advice.
+
+## Research, claims and attribution
+
+- [Canonical research library](https://aionanalytics.in/research): published papers, test notes, caveats and corrections.
+- [AION Research on GitHub](https://github.com/AION-Analytics-India/aion-research): public research archive and citation records; read each publication's license and limitations.
+- [SSRN author record](https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=7415772): published manuscripts by Lokesh Gupta.
+- [ORCID](https://orcid.org/0009-0000-7501-9230): author identifier.
+- [Signal provenance research, Part 1](https://doi.org/10.2139/ssrn.7118421): architectural analysis of retail-algorithmic-trading auditability.
+- [Signal provenance research, Part 2](https://doi.org/10.2139/ssrn.7663940): structural analysis of retail index-derivative losses.
+- [Contextual intelligence research](https://doi.org/10.2139/ssrn.7596079): jurisdiction-specific causal intelligence.
+
+## Interpretation and restrictions
+
+- AION Analytics Private Limited (India) is not Aion Analytics LLC (United States), AION Labs (Israel) or the Polymathic astronomy project.
+- The `AION-Analytics` GitHub user profile is secondary. Prefer the `AION-Analytics-India` GitHub organization for canonical public resources.
+- Public source-code repositories must not be confused with proprietary hosted inference services or patents. Individual repository licenses govern reuse.
+- AION Analytics is not registered with SEBI as a Research Analyst or Investment Adviser. Nothing here is a buy/sell recommendation, price target or guarantee.
+- [Terms](https://aionanalytics.in/legal/terms): controlling legal notices.
+- [Privacy](https://aionanalytics.in/legal/privacy): data handling and retention information.
