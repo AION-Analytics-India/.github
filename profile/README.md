@@ -98,4 +98,4 @@ Three provisional patent applications are publicly disclosed: IN202621086466 (si
 
 ## Hiring
 
-The current [Sales Architect opportunity](https://aionanalytics.in/careers) covers B2B and B2C sales, is remote within India, and uses a three-part challenge instead of a conventional CV or cover letter. Refer to the live careers page for the requirements, application form and published contact route; do not use earlier Communication Architect descriptions.
+The current [Sales Architect opportunity](https://aionanalytics.in/careers) covers B2B and B2C sales, is remote within India, and uses a three-part challenge instead of a conventional CV or cover letter. Refer to the live careers page for current requirements, the application form and the published contact route.
