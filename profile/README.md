@@ -4,6 +4,21 @@
 
 **Canonical GitHub home:** [github.com/AION-Analytics-India](https://github.com/AION-Analytics-India). The separate [AION-Analytics user profile](https://github.com/AION-Analytics) is a secondary account, **not another official organization or product catalogue**. Use this organization for public releases, research and developer issues.
 
+## Featured public repositories
+
+These six projects represent AION's current public developer tools and product disclosures. **Use the source repositories below**, not the older documentation mirror or the secondary GitHub user account.
+
+| Project | What visitors can use or inspect | Access |
+| --- | --- | --- |
+| **[Indian Market Calendar](https://github.com/AION-Analytics-India/aion-indian-market-calendar)** | NSE/BSE/MCX/CDS trading and settlement days, phases, expiries and holidays in Python | [MIT source](https://github.com/AION-Analytics-India/aion-indian-market-calendar) · [PyPI](https://pypi.org/project/aion-indian-market-calendar/) |
+| **[Lithuanian Market Calendar](https://github.com/AION-Analytics-India/aion-lithuanian-market-calendar)** | Lithuanian statutory days, TARGET euro settlement and supported European trading sessions | [MIT source](https://github.com/AION-Analytics-India/aion-lithuanian-market-calendar) · [PyPI](https://pypi.org/project/aion-lithuanian-market-calendar/) |
+| **[Indian Market Intelligence (IMI)](https://github.com/AION-Analytics-India/aion-indian-market-intelligence)** | Public integration, API contract and documentation for Indian financial-event sector impact | [Hosted API access](https://aionanalytics.in/apis) · [Model page](https://aionanalytics.in/models/indian-market-intelligence) |
+| **[IMI MCP Server](https://github.com/AION-Analytics-India/aion-mcp-server)** | Open-source MCP wrapper to connect agents and compatible clients to the credentialed IMI API | [AGPL wrapper](https://github.com/AION-Analytics-India/aion-mcp-server) · [PyPI](https://pypi.org/project/aion-indian-market-intelligence-mcp/) |
+| **[Veritas](https://github.com/AION-Analytics-India/aion-veritas)** | Pre-open index probability bands, published methodology and validation including misses | [Public receipts](https://aionanalytics.in/veritas/validation) · [7-day NIFTY trial and plans](https://aionanalytics.in/veritas) |
+| **[Know Your Rights](https://github.com/AION-Analytics-India/know-your-rights)** | Multilingual Indian legal-information pilot client, API contract and limitations | [Pilot availability](https://aionanalytics.in/models/know-your-rights/demo) · [Public client](https://github.com/AION-Analytics-India/know-your-rights) |
+
+For published evidence, see **[AION Research](https://github.com/AION-Analytics-India/aion-research)**. The **[market-calendar data repository](https://github.com/AION-Analytics-India/aion-market-calendar-data)** supports both calendars but is not a separate end-user package.
+
 ## Start here
 
 **This is the maintained publishing organization.** Start from the code repository if you plan to inspect, fork or contribute; use the listed PyPI release to install. The older [calendar documentation mirror](https://github.com/AION-Analytics-India/aion-indian-market-calendar-docs) is not the source repository.
