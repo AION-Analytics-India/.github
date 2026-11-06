@@ -1,0 +1,7 @@
+# Candidate public-crawl baseline for aionanalytics.in.
+# IMPORTANT: Merge with the EXISTING robots.txt; never discard current restrictions without review.
+# This file is crawl policy only, not security/access control.
+User-agent: *
+Allow: /
+
+Sitemap: https://aionanalytics.in/sitemap.xml
