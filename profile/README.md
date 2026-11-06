@@ -6,9 +6,11 @@
 
 ## Start here
 
+**This is the maintained publishing organization.** Start from the code repository if you plan to inspect, fork or contribute; use the listed PyPI release to install. The older [calendar documentation mirror](https://github.com/AION-Analytics-India/aion-indian-market-calendar-docs) is not the source repository.
+
 **Choose your route:** [Developers](https://aionanalytics.in/for-developers) · [Institutions](https://aionanalytics.in/for-institutions) · [Citizens](https://aionanalytics.in/for-citizens) · [Full product registry](https://aionanalytics.in/models)
 
-- **Python developers:** use the [Indian Market Calendar](https://github.com/AION-Analytics-India/aion-indian-market-calendar) or [Lithuanian Market Calendar](https://github.com/AION-Analytics-India/aion-lithuanian-market-calendar), without an account or API key.
+- **Python developers:** inspect, fork or contribute to the [Indian Market Calendar (source)](https://github.com/AION-Analytics-India/aion-indian-market-calendar) or the [Lithuanian Market Calendar (source)](https://github.com/AION-Analytics-India/aion-lithuanian-market-calendar). Both are MIT licensed; core calendar use does not require an AION account or API key. [India on PyPI](https://pypi.org/project/aion-indian-market-calendar/) · [Lithuania on PyPI](https://pypi.org/project/aion-lithuanian-market-calendar/)
 - **AI and API developers:** install the [IMI client](https://pypi.org/project/aion-indian-market-intelligence/) or [MCP server](https://pypi.org/project/aion-indian-market-intelligence-mcp/). Installation is separate from the proprietary hosted service: inference requires credentials and model-specific entitlements. [API catalogue and access](https://aionanalytics.in/apis)
 - **Researchers:** read [AION Research](https://github.com/AION-Analytics-India/aion-research), the [canonical library](https://aionanalytics.in/research) and [public validation records](https://aionanalytics.in/veritas/validation). Published findings, citations and limitations do not grant access to proprietary implementations.
 
@@ -40,8 +42,8 @@ Next: [developer documentation](https://aionanalytics.in/for-developers), [insti
 
 Recent calendar releases add practical interfaces for developers:
 
-- **[India 1.6.0](https://pypi.org/project/aion-indian-market-calendar/1.6.0/):** distinguish trading and settlement days, identify intraday market phases, query supported index-derivative expiry dates and inspect Muhurat sessions. Unsupported expiry inputs and dates beyond available settlement data raise errors. [Release details](https://github.com/AION-Analytics-India/aion-indian-market-calendar/blob/main/CHANGELOG.md)
-- **[Lithuania 1.1.0](https://pypi.org/project/aion-lithuanian-market-calendar/1.1.0/):** check TARGET settlement days, find the next settlement day and query continuous/closed market phases. Lithuanian public holidays and euro settlement days are different calendars; auction phases are not modelled. [Release details](https://github.com/AION-Analytics-India/aion-lithuanian-market-calendar/blob/main/CHANGELOG.md)
+- **[India 1.7.1](https://pypi.org/project/aion-indian-market-calendar/1.7.1/):** trading versus settlement days, index-expiry and intraday phases, Muhurat sessions, plus commodity closing rules that distinguish US daylight-saving and standard-time seasons. MCX agricultural contracts require their own checks; published exchange notices remain authoritative. [Release details](https://github.com/AION-Analytics-India/aion-indian-market-calendar/blob/main/CHANGELOG.md)
+- **[Lithuania 1.2.1](https://pypi.org/project/aion-lithuanian-market-calendar/1.2.1/):** Lithuanian statutory business days, TARGET euro settlement, market phases for supported EU venues, and timezone/daylight-saving utilities. Auction phases are not modelled; exchange-holiday updates remain distinct from statutory holiday calculations. [Release details](https://github.com/AION-Analytics-India/aion-lithuanian-market-calendar/blob/main/CHANGELOG.md)
 
 ## Hosted products
 
@@ -69,6 +71,14 @@ Selected papers:
 Other existing papers: [The Uncodified Margin](https://doi.org/10.2139/ssrn.7235801), [Signal Provenance, Part 1](https://doi.org/10.2139/ssrn.7118421), [The Great Indian Illusion](https://doi.org/10.2139/ssrn.6973958), [Asymmetric Multipolarity](https://doi.org/10.2139/ssrn.6449739), and [Beyond the Mirror](https://doi.org/10.2139/ssrn.5232429).
 
 [SSRN author page](https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=7415772) · [ORCID](https://orcid.org/0009-0000-7501-9230) · [Public validation, including misses](https://aionanalytics.in/veritas/validation)
+
+## Contribute or report a defect
+
+- **Calendar correctness:** report a reproducible exchange/date discrepancy with a primary exchange notice and package version in the [India calendar issues](https://github.com/AION-Analytics-India/aion-indian-market-calendar/issues) or [Lithuania calendar issues](https://github.com/AION-Analytics-India/aion-lithuanian-market-calendar/issues). Source contributions follow each repository's `CONTRIBUTING.md`.
+- **MCP developer integration:** test the [public wrapper](https://github.com/AION-Analytics-India/aion-mcp-server), file a focused [issue](https://github.com/AION-Analytics-India/aion-mcp-server/issues), or suggest an example that does not disclose tokens or proprietary inference logic.
+- **Research corrections:** use the [research contribution process](https://github.com/AION-Analytics-India/aion-research/blob/main/CONTRIBUTING.md) with a cited publication and reproducible evidence.
+
+If a public tool is useful in your workflow, starring its **source repository** helps other developers discover that specific package; it does not affect AION access or support priority.
 
 ## Support and corrections
 
