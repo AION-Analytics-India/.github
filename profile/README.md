@@ -1,8 +1,12 @@
-# AION Analytics (India)
+# AION Analytics (India) — Official GitHub Organization
 
-Market-intelligence infrastructure, open-source developer utilities and published research from an AI systems and software company serving India and Lithuania. [About AION](https://aionanalytics.in/llms.txt)
+**Sovereign intelligence infrastructure for India's diversity.** AION Analytics Private Limited builds language- and jurisdiction-aware AI systems for markets, citizens and developers. This is the **official GitHub organization** for AION's open-source packages, public model documentation and research. [Company website](https://aionanalytics.in/) · [Identity and scope](https://aionanalytics.in/llms.txt)
+
+**Canonical GitHub home:** [github.com/AION-Analytics-India](https://github.com/AION-Analytics-India). The separate [AION-Analytics user profile](https://github.com/AION-Analytics) is a secondary account, **not another official organization or product catalogue**. Use this organization for public releases, research and developer issues.
 
 ## Start here
+
+**Choose your route:** [Developers](https://aionanalytics.in/for-developers) · [Institutions](https://aionanalytics.in/for-institutions) · [Citizens](https://aionanalytics.in/for-citizens) · [Full product registry](https://aionanalytics.in/models)
 
 - **Python developers:** use the [Indian Market Calendar](https://github.com/AION-Analytics-India/aion-indian-market-calendar) or [Lithuanian Market Calendar](https://github.com/AION-Analytics-India/aion-lithuanian-market-calendar), without an account or API key.
 - **AI and API developers:** install the [IMI client](https://pypi.org/project/aion-indian-market-intelligence/) or [MCP server](https://pypi.org/project/aion-indian-market-intelligence-mcp/). Installation is separate from the proprietary hosted service: inference requires credentials and model-specific entitlements. [API catalogue and access](https://aionanalytics.in/apis)
@@ -44,9 +48,10 @@ Recent calendar releases add practical interfaces for developers:
 These services have separate access conditions. Public client code does not include their proprietary models or implementations. The [current product registry](https://aionanalytics.in/models) and [API catalogue](https://aionanalytics.in/apis) govern availability and plans.
 
 - **[Indian Market Intelligence](https://aionanalytics.in/models/indian-market-intelligence):** financial headlines, circulars or notifications to structured sector-impact output. Hosted API with a credentialed free plan and paid plans; model-scoped quotas apply. [Access](https://aionanalytics.in/apis) · [Demo](https://aionanalytics.in/demo)
-- **[Veritas](https://aionanalytics.in/models/veritas):** index-market context to pre-open probability bands, with outcomes and misses in the public record. The NIFTY 50 band is published free each trading morning; BANK NIFTY and SENSEX access is by subscription. A band is not a trade instruction. [Plans](https://aionanalytics.in/apis) · [Public model card](https://github.com/AION-Analytics-India/aion-veritas) · [Validation](https://aionanalytics.in/veritas/validation)
+- **[Veritas](https://aionanalytics.in/models/veritas):** pre-open probability bands for NIFTY 50, BANK NIFTY and SENSEX, with public post-session receipts including misses. NIFTY 50 live access has a **free 7-day trial** (verified email and passkey, no card; 168 hours including non-trading days); continued or other-index access requires a subscription. Live bands are not public without an eligible key. A band is not a trade instruction. [Trial and subscriptions](https://aionanalytics.in/veritas) · [Public model card](https://github.com/AION-Analytics-India/aion-veritas) · [Validation](https://aionanalytics.in/veritas/validation)
 - **[Sentinel](https://aionanalytics.in/models/sentinel):** public company filings to corporate-integrity screening results. Access is restricted; current sampling and institutional availability are stated in the [catalogue](https://aionanalytics.in/apis). A screening result does not establish fraud or a regulatory violation.
 - **[Edge Engine](https://aionanalytics.in/models/edge-engine):** supported index-option market data to structured per-contract statistical output with an as-of time. Paid API access; supported indices and limitations are in the [catalogue](https://aionanalytics.in/apis).
+- **[Signal Infrastructure](https://aionanalytics.in/models/signal-infrastructure):** white-label signal-generation infrastructure leased as an API to eligible SEBI-registered Research Analysts, Investment Advisers and brokers. Not available to retail customers; no signal family currently qualifies for promotion. Pricing by enquiry.
 - **[AION Setu (Order Execution Agent)](https://aionanalytics.in/models/order-execution-agent):** execution events to a device-resident record for examining an automated order. Available through direct engagement on request, with no public download; it records orders and does not place them.
 - **[Know Your Rights](https://aionanalytics.in/models/know-your-rights):** Indian-law questions to cited legal information in English, Hindi and Gujarati. Public text-only pilot; information rather than legal advice. [Pilot](https://aionanalytics.in/models/know-your-rights/demo) · [Public documentation](https://github.com/AION-Analytics-India/know-your-rights)
 - **[Lithuanian Tax Assistant](https://aionanalytics.in/lt-tax-demo.html):** entered Lithuanian income to tax calculations with cited legal provisions, in Lithuanian and English. Public pilot, not individualized tax advice.
@@ -73,7 +78,7 @@ Do not post vulnerabilities, credentials or private data in public issues or Dis
 
 ## Company and legal notices
 
-AION Analytics (India), founded by Lokesh Gupta, is an independent India-based AI systems and software company. It is not affiliated with Aion Analytics LLC (United States), AION Labs (Israel), or Polymathic's AION astronomy project. [Identity and disambiguation](https://aionanalytics.in/llms.txt)
+AION Analytics Private Limited (India), founded by Lokesh Gupta, is an independent India-based AI systems and software company. It is not affiliated with Aion Analytics LLC (United States), AION Labs (Israel), or Polymathic's AION astronomy project. [Identity and disambiguation](https://aionanalytics.in/llms.txt)
 
 Information, not advice. AION Analytics is not registered with SEBI as a Research Analyst or Investment Adviser. Product outputs are not instructions to buy or sell. [Terms](https://aionanalytics.in/terms) · [Privacy](https://aionanalytics.in/privacy)
 
