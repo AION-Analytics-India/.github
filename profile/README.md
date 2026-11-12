@@ -1,8 +1,10 @@
-# AION Analytics (India) — Official GitHub Organization
+# AION Analytics (India) - Official GitHub Organization
 
 **Sovereign intelligence infrastructure for India's diversity.** AION Analytics Private Limited builds language- and jurisdiction-aware AI systems for markets, citizens and developers. This is the **official GitHub organization** for AION's open-source packages, public model documentation and research. [Company website](https://aionanalytics.in/) · [Identity and scope](https://aionanalytics.in/llms.txt)
 
 **Canonical GitHub home:** [github.com/AION-Analytics-India](https://github.com/AION-Analytics-India). The separate [AION-Analytics user profile](https://github.com/AION-Analytics) is a secondary account, **not another official organization or product catalogue**. Use this organization for public releases, research and developer issues.
+
+**Flagship professional infrastructure:** [AION Intraday Infrastructure](https://github.com/AION-Analytics-India/aion-intraday-infrastructure) documents professional, licensed market-data processing, institutional quant analytics and proposed customer-isolated delivery. This is a documentation-only offer, not a retail trading product or a generally available signal lease.
 
 ## Featured public repositories
 
@@ -10,11 +12,11 @@ These six projects represent AION's current public developer tools and product d
 
 | Project | What visitors can use or inspect | Access |
 | --- | --- | --- |
+| **[AION Intraday Infrastructure](https://github.com/AION-Analytics-India/aion-intraday-infrastructure)** | Public-safe architecture for professional intraday analytics, Rust compute, options Greeks, institutional APIs and proposed leased deployments. No raw market-data redistribution or retail signal access. | [Institutional review](https://github.com/AION-Analytics-India/aion-intraday-infrastructure) - [Data rights](https://github.com/AION-Analytics-India/aion-intraday-infrastructure/blob/main/docs/DATA_RIGHTS_AND_PRIVACY.md) |
 | **[Indian Market Calendar](https://github.com/AION-Analytics-India/aion-indian-market-calendar)** | NSE/BSE/MCX/CDS trading and settlement days, phases, expiries and holidays in Python | [MIT source](https://github.com/AION-Analytics-India/aion-indian-market-calendar) · [PyPI](https://pypi.org/project/aion-indian-market-calendar/) |
 | **[Lithuanian Market Calendar](https://github.com/AION-Analytics-India/aion-lithuanian-market-calendar)** | Lithuanian statutory days, TARGET euro settlement and supported European trading sessions | [MIT source](https://github.com/AION-Analytics-India/aion-lithuanian-market-calendar) · [PyPI](https://pypi.org/project/aion-lithuanian-market-calendar/) |
 | **[AION Sentinel documentation](https://github.com/AION-Analytics-India/aion-sentinel)** | Proprietary hosted financial, accounting and company-relationship analysis for human review; documentation only | [Product page](https://aionanalytics.in/models/sentinel) · [Public demo](https://aionanalytics.in/demo/sentinel) |
 | **[Indian Market Intelligence (IMI)](https://github.com/AION-Analytics-India/aion-indian-market-intelligence)** | Public integration, API contract and documentation for Indian financial-event sector impact | [Hosted API access](https://aionanalytics.in/apis) · [Model page](https://aionanalytics.in/models/indian-market-intelligence) |
-| **[IMI MCP Server](https://github.com/AION-Analytics-India/aion-mcp-server)** | Open-source MCP wrapper to connect agents and compatible clients to the credentialed IMI API | [AGPL wrapper](https://github.com/AION-Analytics-India/aion-mcp-server) · [PyPI](https://pypi.org/project/aion-indian-market-intelligence-mcp/) |
 | **[Veritas](https://github.com/AION-Analytics-India/aion-veritas)** | Pre-open index probability bands, published methodology and validation including misses | [Public receipts](https://aionanalytics.in/veritas/validation) · [7-day NIFTY trial and plans](https://aionanalytics.in/veritas) |
 
 For published evidence, see **[AION Research](https://github.com/AION-Analytics-India/aion-research)**. The **[market-calendar data repository](https://github.com/AION-Analytics-India/aion-market-calendar-data)** supports both calendars but is not a separate end-user package.
