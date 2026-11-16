@@ -57,10 +57,12 @@ Next: [developer documentation](https://aionanalytics.in/for-developers), [insti
 - **[Lithuanian Market Calendar](https://github.com/AION-Analytics-India/aion-lithuanian-market-calendar):** MIT-licensed computed Lithuanian holidays, TARGET settlement-day utilities and exchange calendars using refreshed data. [PyPI](https://pypi.org/project/aion-lithuanian-market-calendar/)
 - **[MCP Server](https://github.com/AION-Analytics-India/aion-mcp-server):** an AGPL-3.0-or-later-licensed wrapper for the hosted Indian Market Intelligence service. The wrapper license does not cover the proprietary inference service or confer API access. [License](https://github.com/AION-Analytics-India/aion-mcp-server/blob/main/LICENSE) · [Access and entitlements](https://aionanalytics.in/apis)
 
-Recent calendar releases add practical interfaces for developers:
+Current Calendar releases, verified 16 November 2026:
 
-- **[India 1.7.1](https://pypi.org/project/aion-indian-market-calendar/1.7.1/):** trading versus settlement days, index-expiry and intraday phases, Muhurat sessions, plus commodity closing rules that distinguish US daylight-saving and standard-time seasons. MCX agricultural contracts require their own checks; published exchange notices remain authoritative. [Release details](https://github.com/AION-Analytics-India/aion-indian-market-calendar/blob/main/CHANGELOG.md)
-- **[Lithuania 1.2.1](https://pypi.org/project/aion-lithuanian-market-calendar/1.2.1/):** Lithuanian statutory business days, TARGET euro settlement, market phases for supported EU venues, and timezone/daylight-saving utilities. Auction phases are not modelled; exchange-holiday updates remain distinct from statutory holiday calculations. [Release details](https://github.com/AION-Analytics-India/aion-lithuanian-market-calendar/blob/main/CHANGELOG.md)
+- **[India 1.8.0](https://pypi.org/project/aion-indian-market-calendar/1.8.0/):** bounded 2026 exchange-session data, corrected NSE INR CDS hours (09:00-17:00 IST), separate currency holidays and date-specific Muhurat windows. Supported non-agri commodity hours distinguish US daylight-saving and standard-time seasons. No 2027 or agricultural-contract coverage claim. [Release details](https://github.com/AION-Analytics-India/aion-indian-market-calendar/blob/main/CHANGELOG.md)
+- **[Lithuania 1.3.0](https://pypi.org/project/aion-lithuanian-market-calendar/1.3.0/):** 16 Lithuanian statutory holiday entries, TARGET settlement utilities, 19 European session templates and verified 2026 full-day closures for Vilnius, Riga and Tallinn. Session templates are not verified holiday coverage for all 19 venues. [Release details](https://github.com/AION-Analytics-India/aion-lithuanian-market-calendar/blob/main/CHANGELOG.md)
+
+Both releases require Python >=3.10. Production automatic software installation remains disabled. Users must manually upgrade with pip; automatic calendar-data refresh does not install a new Python package. Earlier releases remain documented in the linked changelogs.
 
 ## Hosted products
 
