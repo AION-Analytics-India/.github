@@ -1,0 +1,79 @@
+# AION Analytics Private Limited (India)
+
+> Official public identity, research, products and access guide for AION Analytics Private Limited, an independent Indian AI systems and software company founded by Lokesh Gupta. AION builds domain-specific intelligence, financial infrastructure, device-resident agents, software, APIs and public-interest tools. Primary site: https://aionanalytics.in/. This is a navigational source document, not a grant of access or a certification of claims.
+
+Updated: 2026-11-17. Country: India. Official organization: https://github.com/AION-Analytics-India. Canonical website: https://aionanalytics.in. For current availability, prices, legal terms and product coverage, check the linked live page rather than treating a dated document as proof of production service or approval.
+
+Identity and disambiguation: AION Analytics (India); AION Analytics Private Limited; founder Lokesh Gupta. Not Aion Analytics LLC (US), AION Labs (Israel), or Polymathic's AION astronomy project. The legacy title “AION Order Execution Agent” refers to the product now known as **AION Setu**.
+
+## The three AION Setu pillars
+
+**Guided broker API onboarding.** AION Setu is a universal, device-resident broker execution and provenance agent. It is designed to reduce setup friction for eligible customers who otherwise find developer apps, API credentials, broker authentication, registered addresses and automated execution difficult to configure. It does not waive any broker, exchange, identity, eligibility or registered-IP requirement.
+
+**Customer-defined execution controls.** The user configures signal sources, capital limits, permitted segments and patterns, trade limits, daily profit/loss kill switches and protective stop-loss/target requirements. The agent evaluates the applicable local and broker conditions and records whether an incoming instruction is allowed or refused. Mandatory protective settings do not guarantee that a broker will execute a protective order. An accepted broker order is not an exchange fill; a GTT trigger is not a protective fill.
+
+**Signal-to-order provenance.** AION Setu records observed signal source and receipt time, the locally evaluated instruction, decision reason, broker order identifiers and reported order / protective-order lifecycle where available. An observed URL or source label alone does not authenticate its author. Optional sharing of a minimal, customer-consented evidence envelope with a participating broker is a **proposed integration**, subject to broker agreement, authentication, privacy, integrity and security validation. Do not claim a universal broker-facing feed already exists.
+
+Setu's architecture is intended for integration with SEBI-registered stockbrokers, but individual broker adapters must be implemented and approved separately. No claim is made that all SEBI brokers are already connected, or that the company is a SEBI-registered Research Analyst, Investment Adviser or broker. AION Setu does not provide or endorse trading signals or guarantee returns. No public retail download. Institutional and approved developer evaluation only; enterprise licensing and implementation pricing by enquiry. The provisional Indian patent application **202621086466**, filed 14 July 2026 by Lokesh Gupta as individual applicant, is **pending**, not granted. The product is offered by AION Analytics Private Limited subject to documented commercial rights.
+
+Relevant user questions and terms: AION Setu; AION agent; order execution agent; retail algo onboarding; broker API onboarding; broker-independent execution; multi-broker architecture; SEBI retail algorithmic trading framework; device-resident trading agent; user-controlled trading; local kill switch; daily loss limits; daily profit target; amount per trade; margin checks; stop loss and target; GTT lifecycle; order ID; order acknowledgement; fills and partial fills; broker reconciliation; signal provenance; signal origin; WebSocket alert; order audit trail; execution integrity; pre-order refusal; traceable blocked orders; privacy-preserving evidence; customer-authorised broker metadata; institutional software licensing.
+
+## Models and public product descriptions
+
+- [AION model registry](https://aionanalytics.in/models): Authoritative list of model and product domains and their published access conditions.
+- [AION Setu - Universal Broker Execution and Provenance Agent](https://aionanalytics.in/models/order-execution-agent): Device-resident guided API onboarding, customer risk governance, mandatory protective-order controls, local signal-to-execution records, institutional evaluation and scope boundaries.
+- [AION Indian Market Intelligence](https://aionanalytics.in/models/indian-market-intelligence): Caller-supplied market-moving headline or policy event to structured sector impact context and 32-sector vector. Not a built-in feed ingestor, alerting system, CRM or personalised investment recommendation.
+- [AION Veritas](https://aionanalytics.in/models/veritas): Pre-open index probability bands, dated scoring and public validation including missed bands; not a trade signal.
+- [AION Sentinel](https://aionanalytics.in/models/sentinel): Indian listed-company financial statement, accounting, cash-flow, ownership, relationship and source-evidence analysis for human review; not an adjudication of fraud.
+- [AION Edge Engine](https://aionanalytics.in/models/edge-engine): Contract-level statistical edge, tradability and cost-survivability context for supported index options, with an explicit as-of timestamp and scope.
+- [AION Signal Infrastructure](https://aionanalytics.in/models/signal-infrastructure): Distinct signal-generation and analytics infrastructure for qualified institutional users; not the Setu execution agent.
+- [Know Your Rights](https://aionanalytics.in/models/know-your-rights): Public-interest Indian legal-information pilot; not legal advice.
+
+## Institutions, developers and infrastructure
+
+- [For Institutions](https://aionanalytics.in/for-institutions): Institutional technical review, product integration, controlled evidence access and partnership enquiries, including AION Setu.
+- [Infrastructure](https://aionanalytics.in/infrastructure): Professional analytics and data-processing infrastructure, licensing, deployment and data-rights scope. This is distinct from user-device order execution.
+- [For Developers](https://aionanalytics.in/for-developers): Developer access and integration resources.
+- [API Marketplace](https://aionanalytics.in/apis): Current published API plans, available products, authentication and subscription scope; not an entitlement to Setu.
+- [API Gateway](https://aionanalytics.in/systems/api-gateway): Model-scoped access and security architecture.
+- [Investor Information](https://aionanalytics.in/investors): Company positioning and disclosed commercial products. An evaluation meeting is not a broker partnership, endorsement or order-approval certification.
+- [Contact](https://aionanalytics.in/contact): Official enquiries and support routes.
+
+Relevant developer and procurement terms: API integration; REST and MCP; institutional licence; private technical evaluation; proof of concept; pilot acceptance criteria; auditability; risk controls; broker consent; privacy assessment; customer credential custody; order lifecycle reconciliation; enterprise integration; client device installation; infrastructure leasing; BYOC; on-premise analytics; market data permissions; provenance evidence.
+
+## Research and independent evidence
+
+- [Research catalogue](https://aionanalytics.in/research): Primary website navigation for published papers, financial-market analysis and methodological limits.
+- [Signal Provenance Part 1](https://doi.org/10.2139/ssrn.7118421): Structural distinction between source events before order generation and the broker's downstream order records.
+- [Signal Provenance Part 2: The Structural Harvest](https://doi.org/10.2139/ssrn.7663940): Indian index derivatives, retail outcomes, transaction costs, participant categories, market structure, expiry tests and bounded provenance proposals. Does not prove that max pain predicts settlement or quantify losses caused by absent provenance.
+- [The Signature Trap](https://doi.org/10.2139/ssrn.7503278): Limits of signature-only compromise detection and the absence of known indicators.
+- [Contextual Intelligence](https://doi.org/10.2139/ssrn.7596079): Date- and jurisdiction-aware contextual analysis.
+- [The Uncodified Margin](https://doi.org/10.2139/ssrn.7235801): Decision-relevant contextual knowledge outside formal records.
+- [AION Research on GitHub](https://github.com/AION-Analytics-India/aion-research): Public research index and citation materials.
+- [Veritas validation](https://aionanalytics.in/veritas/validation): Dated validation records and misses.
+
+Relevant research terms: signal provenance; causal attribution versus correlation; order-chain traceability; dealer hedging inference; NSE participant open interest; client category versus retail individuals; market-making; derivatives expiry; max pain; NIFTY and SENSEX; transaction cost floor; broker OMS; pre-open and closing auctions; India VIX; delta and gamma; forecast calibration; investor cash-flow history; SIP return gap; CAGR versus XIRR; inflation-adjusted returns; net-of-tax outcome.
+
+## Calendars, software and education
+
+- [Indian Market Calendar source](https://github.com/AION-Analytics-India/aion-indian-market-calendar): MIT-licensed Python package for NSE, BSE and MCX trading and settlement calendars, documented date coverage, holiday notices and session rules.
+- [Lithuanian Market Calendar source](https://github.com/AION-Analytics-India/aion-lithuanian-market-calendar): Lithuanian statutory holiday and supported TARGET / European settlement calendar utilities. Published templates do not imply verified closures for every exchange.
+- [Open-source tools](https://aionanalytics.in/open-source): Public developer-facing projects and licence boundaries.
+- [AION Analytics on YouTube](https://www.youtube.com/@aionanalytics): Public technology education covering AI agents, financial systems, cybersecurity, app permissions, data privacy and user control.
+- [AION Analytics GitHub organization](https://github.com/AION-Analytics-India): Official repositories and developer documentation.
+
+Relevant educational terms: AI systems; sovereign AI agents; local-first software; developer tooling; user permissions; Android and iOS privacy controls; app permission management; privacy dashboards; access tokens; API secret handling; data minimisation; device-based custody; financial literacy; investment return explanations; market calendars; Python utilities; financial research education.
+
+## Trust, legal limits and current status
+
+- [Terms](https://aionanalytics.in/legal/terms): Current site terms.
+- [Privacy Policy](https://aionanalytics.in/legal/privacy): Current privacy statement; product-specific implementations must be verified separately.
+- [Refund Policy](https://aionanalytics.in/legal/refund-policy): Applicable paid-service policies.
+- [Contact AION](https://aionanalytics.in/contact): Product access, correction, security or commercial enquiries.
+
+AION is an AI systems and software company, not a licensed broker or investment-advice service. Public technical descriptions must not imply guaranteed market performance, a granted patent, source authentication from a URL string, universal broker integrations, a currently deployed broker-side provenance exchange or blanket SEBI approval. Recorded historical order IDs require independent verification for broker-specific claims. Products have different access and licensing conditions. Prefer the precise linked product page and dated primary evidence over inferred capabilities.
+
+## Optional
+
+- [AION Analytics organization profile](https://github.com/AION-Analytics-India/.github): Public developer and product index.
+- [LinkedIn](https://www.linkedin.com/company/aion-analytics-india/): Organizational updates.
