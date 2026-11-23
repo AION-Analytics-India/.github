@@ -6,8 +6,9 @@
 - [Sargas: English](sargas/README.md) · [Sargas: Lietuvių](sargas/README.lt.md)
 - [Device and institutional diagrams](DIAGRAMS.md)
 - [Release and platform publication register](PUBLICATION_MANIFEST.md)
-- [DEV Community article draft, not published](DEVTO_DRAFT.md)
+- [Published DEV Community article (23 Nov 2026)](https://dev.to/aion-analytics-in/what-can-an-android-phone-tell-you-about-privacy-a-guide-for-phone-owners-and-institutions-39jl) · [Historical pre-publication draft](DEVTO_DRAFT.md)
 - [Main website model family](https://aionanalytics.in/models/sovereign-sentinel)
+- [Hugging Face original documentation mirror](https://huggingface.co/spaces/aion-analytics-india/README) · [GitLab publication](https://gitlab.com/aion-analytics-india/mobile-privacy-security)
 
 ## Why an individual?
 
