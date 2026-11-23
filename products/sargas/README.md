@@ -2,7 +2,7 @@
 
 **Android data-privacy and device-security assessment · development pilot.**
 
-Languages: [English](README.md) · [Lietuvių](README.lt.md). [English product page](https://aionanalytics.in/models/sargas/en) · [Lithuanian product page](https://aionanalytics.in/models/sargas) · [Comparison](../prahari/COMPARISON.md) · [Diagrams](../DIAGRAMS.md).
+Languages: [English](README.md) · [Lietuvių](README.lt.md). [English product page](https://aionanalytics.in/models/sargas/en) · [Lithuanian product page](https://aionanalytics.in/models/sargas) · [Comparison](COMPARISON.md) · [Palyginimas lietuviškai](COMPARISON.lt.md) · [Diagrams](../DIAGRAMS.md) · [Schemos lietuviškai](DIAGRAMS.lt.md).
 
 ## Why would an individual use Sargas?
 

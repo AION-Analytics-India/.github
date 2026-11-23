@@ -2,7 +2,7 @@
 
 **„Android“ įrenginių duomenų privatumo ir saugumo vertinimas · kuriamos versijos bandomasis etapas.**
 
-Kalbos: [Lietuvių](README.lt.md) · [English](README.md). [Produkto puslapis lietuvių kalba](https://aionanalytics.in/models/sargas) · [English](https://aionanalytics.in/models/sargas/en) · [Palyginimas (EN)](../prahari/COMPARISON.md) · [Schemos](../DIAGRAMS.md).
+Kalbos: [Lietuvių](README.lt.md) · [English](README.md). [Produkto puslapis lietuvių kalba](https://aionanalytics.in/models/sargas) · [English](https://aionanalytics.in/models/sargas/en) · [Palyginimas](COMPARISON.lt.md) · [Comparison in English](COMPARISON.md) · [Schemos lietuviškai](DIAGRAMS.lt.md) · [Diagrams in English](../DIAGRAMS.md).
 
 ## Kodėl tai gali būti naudinga asmeniui?
 
