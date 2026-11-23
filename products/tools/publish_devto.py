@@ -39,7 +39,9 @@ def parse_markdown(raw):
     if len(tags) > 4:
         raise ValueError("DEV.to permits at most four tags")
     body = parts[2].strip()
-    body = body.replace("> **Publication status: DRAFT ONLY.** Do not flip \`published\` to \`true\` without evidence review and authenticated DEV Community publication. Avoid duplicate posting across AION's DEV accounts.\n\n", "")
+    lines = body.splitlines()
+    if lines and lines[0].startswith("> **Publication status: DRAFT ONLY.**"):
+        body = "\n".join(lines[1:]).lstrip()
     return front, body, tags
 
 
@@ -77,6 +79,14 @@ def main():
     if not key or not org.isdigit():
         raise SystemExit("BLOCKED: set DEVTO_API_KEY and numeric DEVTO_ORGANIZATION_ID securely")
     org_id = int(org)
+    org_data = request(API + "/organizations/" + org, key)
+    if org_data.get("username") != "aion-analytics-in":
+        raise RuntimeError("The DEV organisation ID does not match aion-analytics-in")
+    org_articles = request(API + "/organizations/aion-analytics-in/articles?per_page=100", key)
+    if not isinstance(org_articles, list):
+        raise RuntimeError("Unable to verify organisation articles")
+    if any(p.get("canonical_url") == obj["canonical_url"] or p.get("title") == obj["title"] for p in org_articles):
+        raise RuntimeError("Matching organisation article already exists; update instead of duplicating")
     own = request(API + "/articles/me/all?per_page=100", key)
     if not isinstance(own, list):
         raise RuntimeError("Unable to verify existing articles; refusing to risk a duplicate")
