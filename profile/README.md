@@ -8,6 +8,12 @@
 
 **Flagship execution and provenance:** [AION Setu](https://aionanalytics.in/models/order-execution-agent) is a universal broker-execution architecture focused on simpler customer API onboarding, local customer-controlled execution safeguards and an auditable signal-to-order chain. Broker-specific deployment and exchange approval remain separate gates. Pending Indian provisional patent application **202621086466** was filed by Lokesh Gupta individually; it is not a granted patent or a representation of automatic company ownership. Public technical evaluation and licensing are by institutional enquiry.
 
+## Mobile privacy and device security — controlled pilots
+
+**[AION Prahari · India](../../tree/main/products/prahari)** and **[AION Sargas · Lithuania](../../tree/main/products/sargas)** are Android privacy and device-security *development pilots*, not generally available antivirus replacements. Their reported scope includes optional local DNS-domain filtering, review of Android accessibility and device-administrator registrations, available known-indicator diagnostics, and owner-directed remediation. See the [product documentation and evidence limits](../../tree/main/products), [comparison](../../blob/main/products/prahari/COMPARISON.md), and [conceptual diagrams](../../blob/main/products/DIAGRAMS.md).
+
+Personal annual pricing is **proposed, not available for purchase**: India ₹499 (one device) / ₹999 (up to three); Lithuania €14.99 / €34.99. Institutional assessment uses a separate controlled evaluation. Neither published mobile security efficacy nor institutional fleet-monitoring capability has been independently established. This public documentation contains no proprietary security code or download.
+
 ## Featured public repositories
 
 These six projects represent AION's current public developer tools and product disclosures. **Use the source repositories below**, not the older documentation mirror or the secondary GitHub user account.
