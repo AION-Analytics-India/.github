@@ -1,0 +1,38 @@
+# „AION Sargas“ — „Android“ įrenginių duomenų privatumas (lietuviškai)
+
+> Lietuvai skirta **kuriamos versijos** „Android“ duomenų privatumo ir saugumo programa. [Oficialus puslapis](https://aionanalytics.in/models/sargas) | [English](https://aionanalytics.in/models/sargas/en). Peržiūrėta 2026-11-23. Mokami planai dar neparduodami, tikrų šnipinėjimo programų aptikimo veiksmingumas nepatvirtintas.
+
+## Kalbos ir dokumentai
+
+- [Lietuviškas README](https://github.com/AION-Analytics-India/.github/blob/main/products/sargas/README.lt.md)
+- [English README](https://github.com/AION-Analytics-India/.github/blob/main/products/sargas/README.md)
+- [English llms.txt](https://github.com/AION-Analytics-India/.github/blob/main/products/sargas/llms.txt)
+- [Palyginimas](https://github.com/AION-Analytics-India/.github/blob/main/products/sargas/COMPARISON.lt.md) | [Comparison](https://github.com/AION-Analytics-India/.github/blob/main/products/sargas/COMPARISON.md)
+- [Schemos](https://github.com/AION-Analytics-India/.github/blob/main/products/sargas/DIAGRAMS.lt.md)
+- [Produktų šeima](https://aionanalytics.in/models/sovereign-sentinel)
+
+## Kodėl asmeniniam naudojimui?
+
+Telefone laikomos paskyros ir asmens duomenys gali būti pažeidžiami dėl per plačių teisių, nežinomų administravimo paslaugų ir įtartinų tinklo adresų. Aprašyti bandomosios programos veiksmai:
+1. Naudotojas pats peržiūri matomas pritaikymo neįgaliesiems paslaugas ir įrenginio administratorius.
+2. Pasirinktinai įjungtas DNS filtras atmeta sąraše esančių domenų užklausas ir išsaugo vietinę jų istoriją. **Kurios programėlės užklausą siuntė, žurnalas neparodo.**
+3. Pagal naudotojo komandą atliekama turimų žinomų šnipinėjimo programų požymių ir sistemos saugumo patikra, nurodant, kurių patikrų atlikti nepavyko.
+4. Pateikiamos nuorodos į „Android“ nustatymus; sprendimą keisti prieigą ar pašalinti programėlę priima pats savininkas.
+5. Istorinių registracijų ir radinių palyginimai išbandyti kūrimo aplinkoje, bet dar nepatvirtinti fiziniame telefone.
+
+Atskiriems kontaktų, SMS, buvimo vietos, mikrofono, kameros ir failų leidimams peržiūrėti reikia „Android“ nustatymų: išsamios visų programėlių leidimų lentelės šioje versijoje **nėra**. Suteikta teisė savaime neįrodo jos panaudojimo. Radinys savaime neįrodo šnipinėjimo, o neigiamas patikros rezultatas negarantuoja saugumo.
+
+## Kodėl organizacijoms?
+
+Organizacija gali svarstyti ribotos apimties įrenginių rizikos vertinimą darbo ar asmeniniuose telefonuose, tačiau vieša vietos duomenų demonstracija naudoja **sintetinius** įrašus. Centralizuotas parkų valdymas, MDM integracija, darbuotojų telemetrija ir automatinis prieigos ribojimas nepatvirtinti. Asmens duomenims tvarkyti būtinas tinkamas teisinis pagrindas, skaidrumas ir duomenų kiekio mažinimas.
+
+## Techninės ribos, kainos ir prieiga
+
+- DNS filtras naudoja „Android“ VPN leidimą; gali būti nesuderinamas su kita VPN paslauga arba griežtu „Private DNS“. Nemato viso tinklo srauto. „Mac“ aplinkoje atliekama „iPhone“ atsarginės kopijos analizė nėra nuolatinė „iOS“ apsauga.
+- Pirmiesiems **100 priimtų** naudotojų bendroje „Sargas“ ir „Prahari“ bandomojoje programoje numatyta nemokama prieiga; registracijos užklausa savaime nereiškia priėmimo.
+- **Siūlomos, bet dar neparduodamos** kainos: „Essential“ nemokamas; „Personal“ 14,99 €/metus vienam „Android“ įrenginiui; „Family“ 34,99 €/metus iki trijų. Mokėjimai ir automatinis perėjimas į mokamą planą neįjungti.
+- Aptikimo veiksmingumas ir klaidingų pranešimų dažnis tikrų šnipinėjimo programų atveju neišmatuoti. Rekomenduojama palikti įjungtą „Google Play Protect“.
+
+## Dokumentacijos ribos
+
+Viešas aprašas nesuteikia licencijos uždaram programos kodui, nepatvirtina saugumo bandymų ir nežada organizacijai parengtos stebėjimo sistemos. Specializuota lietuviška terminija dar laukia gimtakalbio peržiūros.

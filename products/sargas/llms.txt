@@ -1,0 +1,38 @@
+# AION Sargas — Android mobile data privacy (English)
+
+> Lithuania-focused Android device-privacy and security **development pilot**. Official English product page: https://aionanalytics.in/models/sargas/en. Lithuanian edition: https://aionanalytics.in/models/sargas. Reviewed 2026-11-23. No public paid checkout or production malware-detection certification.
+
+## Languages and sources
+
+- [English README](https://github.com/AION-Analytics-India/.github/blob/main/products/sargas/README.md)
+- [Lietuviškas README](https://github.com/AION-Analytics-India/.github/blob/main/products/sargas/README.lt.md)
+- [Lietuviškas llms.txt](https://github.com/AION-Analytics-India/.github/blob/main/products/sargas/llms.lt.txt)
+- [Comparative evidence](https://github.com/AION-Analytics-India/.github/blob/main/products/sargas/COMPARISON.md) | [Palyginimas](https://github.com/AION-Analytics-India/.github/blob/main/products/sargas/COMPARISON.lt.md)
+- [Diagrams](https://github.com/AION-Analytics-India/.github/blob/main/products/DIAGRAMS.md) | [Lietuviškos schemos](https://github.com/AION-Analytics-India/.github/blob/main/products/sargas/DIAGRAMS.lt.md)
+- [Parent product family](https://aionanalytics.in/models/sovereign-sentinel)
+
+## Why for individuals
+
+A phone may expose personal accounts and business credentials through powerful registered Android services, unusual device administration, or concerning network destinations. The development build's documented owner workflows:
+1. On-demand review of visible accessibility services and device administrators.
+2. Optional listed-domain DNS filtering **only while enabled**, including local blocked-domain and timestamp history. The requesting app is not identified.
+3. On-demand diagnostic checking available known spyware/security indicators, modified protections and patch status, showing checks that could not run.
+4. Guidance that opens the relevant Android settings/app details; the owner chooses any change.
+5. Development-tested registration-history and finding correlations; physical-phone acceptance still outstanding.
+
+Android's settings remain necessary to review **per-app contacts, SMS, location, microphone, camera and files permissions**: the pilot does not list them comprehensively. A granted privilege is not proof it was exercised. A matched indicator is a lead, not a spyware verdict. A negative scan does not rule out compromise.
+
+## Why for institutions
+
+A controlled evaluation may help organisations examine Android device-risk workflows on corporate and personal devices. The site shows a **synthetic** location-integrity example, not deployed employee surveillance. There is no verified institution-facing fleet console, MDM integration, central employee telemetry or automated enforcement. Personal data access requires an explicit lawful basis, proportionality, minimisation and agreed governance.
+
+## Platform, pricing and availability
+
+- Android OS; optional DNS filtering uses Android's VPN service and may conflict with an existing VPN or strict Private DNS and cannot intercept all traffic. macOS iPhone-backup diagnostics are a separate on-demand companion workflow, not iOS continuous filtering.
+- Pilot: first **100 admitted users across Sargas and Prahari together** receive free pilot access; requesting an email does not guarantee admission.
+- **Planned, not purchasable**: Essential free; Personal €14.99/year for one Android device; Family €34.99/year for up to three. No payment, subscription entitlement or automatic conversion is in force.
+- Real-world spyware detection sensitivity/false positives remain unmeasured. Keep Google Play Protect enabled.
+
+## Rights and interpretation
+
+Public documentation is not open-source release of Sargas, not independent security testing and not an enterprise guarantee. Use the official product pages to confirm current rollout status.

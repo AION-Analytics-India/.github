@@ -1,0 +1,32 @@
+# Lietuvos mokesčių asistentas — 2026 m. demonstracija naršyklėje (lietuviškai)
+
+> Viešai prieinama nemokama Lietuvos gyventojų pajamų mokesčio skaičiuoklės **2026 mokestiniams metams** bandomoji versija. Tai nėra mokesčių konsultacija, VMI deklaravimo paslauga ar patvirtintas mokamas produktas. Peržiūrėta 2026-11-23.
+
+## Oficialios nuorodos ir kalbos
+
+- [Skaičiuoklės demonstracija lietuvių / anglų kalbomis](https://aionanalytics.in/lt-tax-demo.html)
+- [Lietuviško teksto peržiūra ir pastabos](https://aionanalytics.in/lt-tax-review.html)
+- [Produktų katalogas ir bandomosios versijos būklė](https://aionanalytics.in/models)
+- [Lietuviškas README](https://github.com/AION-Analytics-India/.github/blob/main/products/lt-tax-assistant/README.lt.md)
+- [English llms.txt](https://github.com/AION-Analytics-India/.github/blob/main/products/lt-tax-assistant/llms.txt) | [English README](https://github.com/AION-Analytics-India/.github/blob/main/products/lt-tax-assistant/README.md)
+- [Lietuvos Respublikos teisės aktai (e-Seimas)](https://e-seimas.lrs.lt/) | [Valstybinė mokesčių inspekcija](https://www.vmi.lt/)
+
+## Ką rodo vieša skaičiuoklė?
+
+- Formoje galima įvesti 2026 m. metines pajamas eurais pagal rūšis, nurodytus NPD / negalios duomenis ir dalį GPMĮ 21 straipsnyje aptariamų išlaidų.
+- Skaičiavimo rezultatų eilutės siejamos su nurodytais GPMĮ straipsniais, aktualių redakcijų ir mokestinių metų kontekstu, GPM311 priedų informacija ir dokumentų rūšimis. Galima parengti bei spausdinti ataskaitą arba išsaugoti PDF.
+- Svetainėje nurodoma, kad skaičiavimai atliekami naršyklėje, o įvesti finansiniai duomenys neišsiunčiami. **Tai svetainės teiginys**, nepriklausomu kodo ar tinklo auditu nepatvirtintas.
+- Kai trūksta galiojančio oficialaus šaltinio ar neaiški taikytina įstatymo redakcija, sistema turėtų atsisakyti spėlioti. Prieš remdamiesi išvada patikrinkite konkrečius įvesties duomenis, mokestinį laikotarpį ir oficialias taisykles.
+
+## Atskiras lietuviškų tekstų peržiūros puslapis
+
+- Kalbos peržiūros puslapyje yra lietuvių bei anglų kalbų tekstų poros, įskaitant **siauresnį klausimų apie deklaravimo terminus ir prievoles** aprašą.
+- Tai **neįrodo**, kad tokia klausimų ir atsakymų funkcija yra vienoje su skaičiuokle veikiančioje sistemoje. Šių dviejų paviršių funkcijų nereikia suplakti.
+- Teisinė ir finansinė lietuviška terminija dar laukia gimtakalbio peržiūros. Būtina tikrinti dabartines oficialių teisės aktų redakcijas.
+
+## Kam skirta, kokia būsena ir ribos?
+
+- Gyventojai gali tyrinėti mokestinius skaičiavimus ir atsekti nurodytus šaltinius. Mokesčių specialistai gali tikrinti rezultatus ir kalbą, tačiau profesionaliai patvirtinta produkcinė paslauga neįrodyta.
+- Demonstracija nemokama. Mokamai versijai reikėtų Lietuvos licencijuotos mokesčių praktikos patvirtinimo ir atskirai paskelbtų sąlygų. **Nėra patvirtintos prenumeratos kainos ar mokėjimų funkcijos.**
+- Sistema nesiunčia deklaracijų VMI automatiškai, neteikia individualių mokestinių konsultacijų ir negarantuoja, kad visais atvejais apskaičiuotas mokestis teisingas.
+- Jei atsakymas skiriasi nuo galiojančių teisės aktų ar VMI informacijos, remkitės oficialiu šaltiniu. Vieša dokumentacija nesuteikia teisių į uždarą kodą ar naudotojų mokesčių duomenis.

@@ -1,0 +1,43 @@
+# AION Analytics — su Lietuva susiję produktai (lietuviškai)
+
+> Oficiali vieša trijų skirtingų su Lietuva susijusių AION produktų dokumentacijos rodyklė „GitHub“ platformoje. Dokumentaciją tvarko Indijos bendrovė AION Analytics Private Limited. Peržiūrėta 2026-11-23. Pagrindinė svetainė: https://aionanalytics.in. Šis failas nėra svetainės `/llms.txt` kopija ir neįrodo, kad visa programinė įranga jau išleista.
+
+## Kalbos ir produktai
+
+- [English — Lithuania products](https://github.com/AION-Analytics-India/.github/blob/main/llms.txt)
+- [„AION Sargas“ — lietuviškas aprašas](https://github.com/AION-Analytics-India/.github/blob/main/products/sargas/llms.lt.txt) | [English](https://github.com/AION-Analytics-India/.github/blob/main/products/sargas/llms.txt)
+- [„AION Lithuanian Market Calendar“ — lietuviškas aprašas](https://github.com/AION-Analytics-India/aion-lithuanian-market-calendar/blob/main/llms.lt.txt) | [English](https://github.com/AION-Analytics-India/aion-lithuanian-market-calendar/blob/main/llms.txt)
+- [Lietuvos mokesčių asistentas — lietuviškas aprašas](https://github.com/AION-Analytics-India/.github/blob/main/products/lt-tax-assistant/llms.lt.txt) | [English](https://github.com/AION-Analytics-India/.github/blob/main/products/lt-tax-assistant/llms.txt)
+
+## „AION Sargas“ — telefono duomenų privatumas ir saugumas
+
+- [Oficialus puslapis lietuviškai](https://aionanalytics.in/models/sargas) | [Angliškas puslapis](https://aionanalytics.in/models/sargas/en)
+- Kuriamos versijos „Android“ programa: telefone matomų pritaikymo neįgaliesiems paslaugų ir įrenginio administratorių peržiūra; pasirinktinis sąraše esančių DNS domenų blokavimas, kol filtras įjungtas; vietinė atmestų užklausų istorija; turimų žinomų požymių diagnostika ir naudotojo pasirenkami veiksmai.
+- **Nepatvirtinta:** visų programėlių jautrių leidimų inventorizacija, kiekvienos DNS užklausos priskyrimas konkrečiai programėlei, patikimas visų šnipinėjimo programų aptikimas arba centralizuotas organizacijos telefonų valdymas.
+- DNS filtrą riboja „Android“ VPN ir „Private DNS“ sąveika. Pažangesni palyginimai patikrinti kūrimo aplinkoje, tačiau dar laukia bandymų fiziniame telefone.
+- Tik siūlomos, šiuo metu neveikiančios prenumeratos kainos: 14,99 € metams vienam telefonui; 34,99 € metams iki trijų telefonų. Mokamas atsiskaitymas neįjungtas.
+- [Lietuviškas README](https://github.com/AION-Analytics-India/.github/blob/main/products/sargas/README.lt.md).
+
+## Lietuvos rinkos kalendorius — paskelbtas MIT licencijos „Python“ paketas
+
+- [Techninis produkto puslapis](https://aionanalytics.in/models/lithuanian-market-calendar) | [Diegimas](https://aionanalytics.in/open-source/lithuanian-market-calendar)
+- [„GitHub“ pradinis kodas ir klaidų pranešimai](https://github.com/AION-Analytics-India/aion-lithuanian-market-calendar) | [PyPI 1.3.0](https://pypi.org/project/aion-lithuanian-market-calendar/1.3.0/)
+- 1.3.0 versija paskelbta 2026-11-16; joje yra 2026.11.15.1 duomenų karta. Atskirai skaičiuojamos Lietuvos įstatyminės darbo dienos, Europos prekybos vietų sesijos ir TARGET eurų atsiskaitymo dienos.
+- 19 Europos MIC prekybos sesijų šablonų **nereiškia**, kad patikrinti visų 19 biržų uždarymai. Išsamiai pagal oficialius 2026 m. visos dienos uždarymus peržiūrėtos tik XVIL, XRIS ir XTAL.
+- Nepateikiama tikrojo laiko prekybos būklė, visų bankų darbo grafikai ar automatinis naujų „Python“ versijų diegimas. Tikrinkite faktiškai naudojamą duomenų kartą.
+- MIT licencija taikoma kalendoriaus paketui, **ne** „Sargas“ ar mokesčių asistentui.
+
+## Lietuvos mokesčių asistentas — nemokama 2026 m. demonstracija
+
+- [Veikianti skaičiuoklės demonstracija](https://aionanalytics.in/lt-tax-demo.html) | [Lietuviškų tekstų peržiūra](https://aionanalytics.in/lt-tax-review.html)
+- Demonstracijoje įvedamos 2026 m. metinės pajamos pagal rūšis ir pasirinktos GPMĮ 21 straipsnio išlaidos. Rodomi skaičiavimai su teisės aktų nuorodomis, GPM311 priedų informacija ir spausdinama ataskaita. Svetainėje nurodoma, kad įvesti finansiniai duomenys lieka naršyklėje.
+- Atskiras kalbos peržiūros puslapis turi deklaravimo terminų ir prievolių tekstų. **Tai neįrodo**, kad skaičiuoklėje veikia vieninga konsultavimo ar deklaravimo sistema.
+- Tai bandomoji priemonė, ne asmeninė mokesčių konsultacija, ne automatinis deklaracijos pateikimas VMI ir ne patvirtintas mokamas produktas. Visada tikrinkite aktualią įstatymo redakciją ir VMI duomenis.
+- [Lietuviškas README](https://github.com/AION-Analytics-India/.github/blob/main/products/lt-tax-assistant/README.lt.md) | [English](https://github.com/AION-Analytics-India/.github/blob/main/products/lt-tax-assistant/README.md).
+
+## Atsakomybės ir teisių ribos
+
+- Tai **trys skirtingi produktai** su skirtingomis licencijomis, aprėptimi ir parengties būkle.
+- Viešai paskelbta dokumentacija nesuteikia teisių į uždarą programinį kodą ir nėra leidimas rinkti asmens duomenis.
+- Teisiniais, mokesčių, saugumo ir prekybos klausimais pirmenybė teikiama galiojantiems pirminiams šaltiniams ir tinkamai patikrintiems įrodymams.
+- Lietuviško teksto specializuoti terminai dar laukia galutinės gimtakalbio peržiūros.

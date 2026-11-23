@@ -14,6 +14,10 @@
 
 Personal annual pricing is **proposed, not available for purchase**: India ₹499 (one device) / ₹999 (up to three); Lithuania €14.99 / €34.99. Institutional assessment uses a separate controlled evaluation. Neither published mobile security efficacy nor institutional fleet-monitoring capability has been independently established. This public documentation contains no proprietary security code or download. [Published article on DEV Community](https://dev.to/aion-analytics-in/what-can-an-android-phone-tell-you-about-privacy-a-guide-for-phone-owners-and-institutions-39jl) · [Hugging Face mirror](https://huggingface.co/spaces/aion-analytics-india/README) · [GitLab mirror](https://gitlab.com/aion-analytics-india/mobile-privacy-security).
 
+## Lithuanian products · machine-readable EN / LT
+
+[AION Sargas](https://aionanalytics.in/models/sargas), [Lithuanian Market Calendar](https://aionanalytics.in/models/lithuanian-market-calendar), and the [Lithuanian Tax Assistant pilot](https://aionanalytics.in/lt-tax-demo.html) have separate release conditions and rights. [English `llms.txt`](https://github.com/AION-Analytics-India/.github/blob/main/llms.txt) · [Lietuviškas `llms.lt.txt`](https://github.com/AION-Analytics-India/.github/blob/main/llms.lt.txt). The calendar is an MIT Python package; Sargas and the Tax Assistant are pilots, not open-source software releases.
+
 ## Featured public repositories
 
 These six projects represent AION's current public developer tools and product disclosures. **Use the source repositories below**, not the older documentation mirror or the secondary GitHub user account.

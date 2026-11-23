@@ -1,0 +1,43 @@
+# AION Analytics — Lithuania-related products (English)
+
+> Official public GitHub discovery index for three distinct Lithuania-related AION products. Maintained by AION Analytics Private Limited (India). Reviewed 2026-11-23. The canonical live website is https://aionanalytics.in; this GitHub file is a documentation index, not the website's own `/llms.txt` and not evidence of software deployment.
+
+## Languages and products
+
+- [Lietuvių — Lietuvos produktų rodyklė](https://github.com/AION-Analytics-India/.github/blob/main/llms.lt.txt)
+- [AION Sargas — English machine-readable guide](https://github.com/AION-Analytics-India/.github/blob/main/products/sargas/llms.txt) | [Lietuviškai](https://github.com/AION-Analytics-India/.github/blob/main/products/sargas/llms.lt.txt)
+- [AION Lithuanian Market Calendar — English machine-readable guide](https://github.com/AION-Analytics-India/aion-lithuanian-market-calendar/blob/main/llms.txt) | [Lietuviškai](https://github.com/AION-Analytics-India/aion-lithuanian-market-calendar/blob/main/llms.lt.txt)
+- [AION Lithuanian Tax Assistant — English machine-readable guide](https://github.com/AION-Analytics-India/.github/blob/main/products/lt-tax-assistant/llms.txt) | [Lietuviškai](https://github.com/AION-Analytics-India/.github/blob/main/products/lt-tax-assistant/llms.lt.txt)
+
+## AION Sargas — mobile data privacy and security (pilot)
+
+- [Official Lithuanian page](https://aionanalytics.in/models/sargas) | [Official English page](https://aionanalytics.in/models/sargas/en)
+- Android pilot: review visible accessibility-service and device-administrator registrations; optionally filter listed DNS destinations while the filter is active; inspect local blocked requests; run available known-indicator diagnostics; choose user-controlled remediation.
+- NOT a validated full spyware detector, full per-app sensitive-permission inventory, app-to-domain attribution system, or production enterprise fleet-monitoring solution.
+- Android VPN/Private DNS compatibility limits apply. Advanced comparison features are development-tested but await physical-device acceptance.
+- Planned display-only consumer prices: €14.99/year for one Android device; €34.99/year for up to three. Paid checkout not enabled; limited free pilot admission is separate.
+- [Sargas public README](https://github.com/AION-Analytics-India/.github/blob/main/products/sargas/README.md).
+
+## AION Lithuanian Market Calendar — published MIT software
+
+- [Technical product guide](https://aionanalytics.in/models/lithuanian-market-calendar) | [Install page](https://aionanalytics.in/open-source/lithuanian-market-calendar)
+- [Source & issues](https://github.com/AION-Analytics-India/aion-lithuanian-market-calendar) | [PyPI](https://pypi.org/project/aion-lithuanian-market-calendar/1.3.0/)
+- Version 1.3.0, published 2026-11-16, bundles public data generation 2026.11.15.1. Separate Lithuanian statutory business days, European venue session templates and TARGET euro settlement dates.
+- 19 European MIC session templates are not 19 independently verified closure calendars; official 2026 full-day closure verification is XVIL, XRIS, XTAL only. No live market-status feed, universal EU bank schedule or automatic package installation.
+- Offline calculations are available; some versioned market closure data can update through integrity-checked manifests. Inspect the actual installed data generation.
+- MIT licence applies to this Python package, **not** to Sargas or the Tax Assistant.
+
+## AION Lithuanian Tax Assistant — free 2026 browser pilot
+
+- [Official calculator](https://aionanalytics.in/lt-tax-demo.html) | [Lithuanian-language review](https://aionanalytics.in/lt-tax-review.html)
+- The calculator's current public page requests 2026 annual income by type and selected Article 21 expenses, shows calculations with cited statutory provisions, displays GPM311 appendix references and provides a printable report. It states that entered financial figures remain in the browser.
+- The separate language-review interface includes filing-deadline and filing-obligation wording. **Do not treat its review strings as proof that the calculator provides an integrated filing-advice chatbot.**
+- Pilot, not personalised tax advice, automated VMI filing or a signed-off paid release. Official legislation and VMI guidance take precedence; unavailable or mismatched provisions must not be guessed.
+- [English public docs](https://github.com/AION-Analytics-India/.github/blob/main/products/lt-tax-assistant/README.md) | [Lithuanian public docs](https://github.com/AION-Analytics-India/.github/blob/main/products/lt-tax-assistant/README.lt.md).
+
+## Interpretation and rights
+
+- These are three different products with separate release, licence, coverage, legal and access conditions.
+- Private device information is not authorised for disclosure merely because product documentation is public.
+- GitHub documentation contains no licensed distribution of proprietary mobile-security code or Tax Assistant software.
+- This index does not replace primary statutes, exchange/ECB notices, current product pages, tax professionals, security investigators or independent acceptance evidence.

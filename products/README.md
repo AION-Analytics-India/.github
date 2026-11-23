@@ -3,7 +3,8 @@
 **Documentation-only public catalogue · reviewed 23 November 2026.** AION Prahari (India) and AION Sargas (Lithuania) are regional editions of a development-stage Android device privacy and security pilot. No public APK or consumer paid checkout is verified.
 
 - [Prahari: India](prahari/README.md) · [Prahari comparison](prahari/COMPARISON.md)
-- [Sargas: English](sargas/README.md) · [Sargas: Lietuvių](sargas/README.lt.md)
+- [Sargas: English](sargas/README.md) · [Sargas: Lietuvių](sargas/README.lt.md) · [English llms](sargas/llms.txt) · [Lietuviškas llms](sargas/llms.lt.txt)
+- [All three Lithuanian products (English)](../llms.txt) · [Lietuviškai](../llms.lt.txt) · [LT Tax Assistant](lt-tax-assistant/README.md)
 - [Device and institutional diagrams](DIAGRAMS.md)
 - [Release and platform publication register](PUBLICATION_MANIFEST.md)
 - [Published DEV Community article (23 Nov 2026)](https://dev.to/aion-analytics-in/what-can-an-android-phone-tell-you-about-privacy-a-guide-for-phone-owners-and-institutions-39jl) · [Historical pre-publication draft](DEVTO_DRAFT.md)

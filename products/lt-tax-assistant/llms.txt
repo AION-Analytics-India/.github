@@ -1,0 +1,32 @@
+# AION Lithuanian Tax Assistant — 2026 browser pilot (English)
+
+> Official public, free pilot of a browser-based Lithuanian personal-income-tax calculator for **tax year 2026**. Not tax advice, a VMI filing service, or an approved paid product. Reviewed 2026-11-23.
+
+## Canonical references and languages
+
+- [Official calculator, Lithuanian/English switch](https://aionanalytics.in/lt-tax-demo.html)
+- [Lithuanian-language review and feedback](https://aionanalytics.in/lt-tax-review.html)
+- [Product registry and current pilot status](https://aionanalytics.in/models)
+- [English documentation](https://github.com/AION-Analytics-India/.github/blob/main/products/lt-tax-assistant/README.md)
+- [Lietuviškas aprašas](https://github.com/AION-Analytics-India/.github/blob/main/products/lt-tax-assistant/llms.lt.txt) | [Lietuviškas README](https://github.com/AION-Analytics-India/.github/blob/main/products/lt-tax-assistant/README.lt.md)
+- [Official Lithuanian legislation portal](https://e-seimas.lrs.lt/) | [State Tax Inspectorate (VMI)](https://www.vmi.lt/)
+
+## Public calculator — demonstrated scope
+
+- The publicly accessible form requests 2026 annual euro income by type, selected disability/NPD inputs and specified Article 21 expense categories.
+- It presents calculated figures with a cited GPMĮ provision, edition/tax-year context where available, GPM311 form appendices, official document-type guidance and a printable report/PDF route.
+- The product page states calculations execute in the browser and the financial figures entered are not sent elsewhere. This is a **website statement**, not an independent source-code or network audit.
+- If an applicable official rule is unavailable or conflicts with the requested year, the system should refuse rather than fabricate a tax rate or result. Inspect actual outputs for each tax-year and input scenario before relying on them.
+
+## Separate language-review surface
+
+- The public language-review page contains Lithuanian/English text pairs and refusal messages, including a **narrower filing-deadline / filing-obligation question-answering scope**.
+- That localisation/test content is **not evidence** that the same Q&A workflow is fully available within the browser calculator; the two public surfaces must not be described as one validated feature.
+- Lithuanian legal and financial wording awaits native-speaker review; law changes require current official source checks.
+
+## Audience, availability and limits
+
+- Individuals can explore educational calculations and map numbers to cited source provisions; accounting/tax practitioners can review the calculations and language, but a professional-validated production service is not established.
+- The public pilot is free; any later paid release requires licensed Lithuanian tax-practice sign-off and separate approved terms. No subscription price, checkout, automatic VMI submission, advice, or compliance guarantee is asserted.
+- Where a result differs from VMI or the current statute, **the official authority prevails**. No personalised tax advice. Check the tax year and edition before acting.
+- No source-code licensing or permission to access user tax information is created by this public documentation.
